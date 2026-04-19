@@ -1,0 +1,32 @@
+Agentic AI Software Engineer
+Machine Learning Reply
+Munich, Germany (Hybrid: client site / Reply office / remote)
+Full-time, Permanent
+Entry-level, English-speaking workplace
+
+About the Company:
+Machine Learning Reply is part of the Reply network with over 8,000 employees. Extensive expertise in Data Science across all key industries of DAX100 clients. Provides customized end-to-end data science solutions.
+
+About the Role:
+Combines strong software engineering expertise with hands-on experience in modern AI systems, including agentic AI and generative AI applications. Support clients in designing and building intelligent, production-ready systems that leverage LLMs, autonomous agents, and scalable cloud architectures.
+
+Key Responsibilities:
+- Design, build, and deploy scalable, production-grade systems on cloud platforms (AWS, GCP, Azure)
+- Develop and operate agentic AI systems including multi-step workflows, tool integration, and autonomous decision-making
+- Lead end-to-end implementation of AI-driven features from PoC to production deployment
+- Build high-performance APIs and backend services using FastAPI, Flask, or Spring Boot
+- Collaborate with client teams on AI solution design
+
+Required Skills:
+- Completed university studies with strong quantitative/technical background (CS, Data Science, Engineering)
+- Solid programming in at least two languages: Python, Java, Rust, or JavaScript
+- Practical experience deploying ML/AI models into production
+- Experience with SQL and NoSQL databases, data modeling
+- Cloud platform experience (AWS, GCP, or Azure)
+
+Nice-to-Have:
+- Experience with LLM frameworks and agentic workflows
+- Containerization (Docker, Kubernetes)
+- Client-facing communication skills
+
+Language: English (English-speaking workplace)

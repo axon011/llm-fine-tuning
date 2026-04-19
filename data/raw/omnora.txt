@@ -1,0 +1,37 @@
+Founding AI Engineer
+Omnora
+Cottbus, Germany
+Full-time
+Experienced (Berufserfahren)
+
+About the Company:
+Omnora is a startup based in Cottbus building AI-powered knowledge management and collaboration solutions.
+
+About the Role:
+Founding AI Engineer working directly with founders to build AI-powered product from the ground up. Requires deep technical understanding of AI, product thinking, and hands-on execution.
+
+Key Responsibilities:
+- Build AI-powered product features from concept to production
+- Design and implement AI solutions using LLMs and agent systems
+- Develop full-stack platform (frontend + backend)
+- Conduct user interviews and gather feedback
+- Shape product strategy and technical direction
+
+Required Skills:
+- Deep technical understanding of AI and software solutions
+- Conceptual strength for complex problem-solving
+- Product thinking and user empathy
+- Ownership and hands-on mentality
+- User interview experience
+
+Tech Stack:
+- Next.js, LiveKit
+- LangGraph, LangChain
+- Azure, OpenAI
+- TypeScript, Python
+
+Nice-to-Have:
+- Knowledge Graph experience
+- Knowledge management or knowledge engineering background
+
+Language: German JD (English not explicitly stated)

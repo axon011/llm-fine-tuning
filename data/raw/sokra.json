@@ -1,0 +1,18 @@
+{
+  "title": "Founding Engineer (Full-Stack AI/ML)",
+  "company": "Sokra",
+  "location": "Berlin, Germany",
+  "work_model": "hybrid",
+  "seniority": "entry-level",
+  "required_skills": [
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Python",
+    "LLM agents",
+    "RAG pipelines"
+  ],
+  "nice_to_have": [],
+  "salary": "0.5-2% equity",
+  "language": "English"
+}

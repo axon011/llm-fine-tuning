@@ -1,0 +1,34 @@
+AI Engineer II - Agentic AI Platform
+paiqo GmbH
+Paderborn and Frankfurt am Main, Germany (Remote/Hybrid, must be based in Germany)
+Full-time, Permanent
+Mid-level (2-5 years experience)
+
+About the Company:
+paiqo develops and implements AI for the future of the entire economy. Offices in Paderborn and Vienna, with remote work options across Germany. Builds autonomous AI agents that automate real business processes — from chatbots that process orders to agents that plan and execute entire workflows.
+
+About the Role:
+Design, develop, and deploy agentic AI solutions on Azure for enterprise clients. Build autonomous agents that automate business processes end-to-end.
+
+Key Responsibilities:
+- Design and implement agentic AI solutions on Azure
+- Build autonomous agents for business process automation
+- Develop RAG pipelines with Azure AI Search
+- Integrate AI agents with enterprise systems via APIs
+- Implement security practices (RBAC, managed identities)
+- DevOps/MLOps for AI deployments
+
+Required Skills:
+- 2-5 years experience in AI/ML engineering or software development
+- At least 1 year in generative AI or agent systems projects
+- Solid Python knowledge
+- Azure OpenAI Service, Azure AI Search, RAG concepts
+- Agent frameworks: LangChain, LangGraph, CrewAI
+- Vector databases and prompt engineering
+- API integration (REST, OAuth2)
+- Security practices (RBAC, managed identities)
+- DevOps/MLOps fundamentals
+
+Language: German B2 minimum, English B2 minimum
+
+Benefits: Trust-based working hours, remote/hybrid, state-of-the-art tech stack (Azure AI Foundry, Copilot Studio, LangChain, LangGraph), budget for AI training and certifications

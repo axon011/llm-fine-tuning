@@ -1,0 +1,32 @@
+AI Engineer (LLMs + Knowledge Graphs) (m/f/d)
+Pinnipedia Technologies GmbH
+Berlin / Ketzin (hybrid) | Full-time | €60,000-85,000
+
+About the Company
+Pinnipedia Technologies GmbH is a Berlin startup building a cloud platform that automates and assists the creation of audit-ready IT-security concepts for German/EU standards (e.g., BSI-Grundschutz, C5). The company is IGP-funded (2025/26) and co-develops with FU Berlin and pilot users from industry and security consulting.
+
+About the Role
+AI Engineer to turn messy inputs into structured knowledge and reliable answers. You will design and operate knowledge-graph + LLM (RAG) pipelines, model/ingest domain ontologies, and own evaluation so we can ship trustworthy features.
+
+Key Responsibilities
+- Model the domain (ontology/taxonomy), build ETL into a graph store, and author queries (SPARQL/Cypher) to surface graph facts and relationships in features
+- Design retrieval and answer generation workflows (indexing, chunking, reranking), and orchestrate prompts/tools while balancing KG, vector search, and business rules
+- Define and track retrieval/answer metrics (e.g., precision/recall, faithfulness)
+- Own evaluation so we can ship trustworthy features
+
+Required Skills
+- Strong Python and data engineering fundamentals
+- Hands-on with knowledge graphs (ontology design + queries) and a graph DB
+- Practical RAG experience (indexing, retrieval, evaluation)
+- Testing mindset (pytest), version control, and clear documentation
+- English required (German nice-to-have)
+
+Nice-to-Have
+- Observability for ML/LLM systems; simple dashboards for quality metrics
+- Cloud basics (AWS/Azure), containers (Docker), CI/CD
+
+Application Note Required
+Submit CV (PDF) and a short note (max 200 words) describing how you would design a KG-backed RAG pipeline (ontology scope, indexing, retrieval, and evaluation).
+
+Interview Process
+20-min intro → 90-min practical (graph modeling + retrieval evaluation) → 45-min team chat → references

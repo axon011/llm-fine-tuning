@@ -1,0 +1,32 @@
+AI/LLM Engineer - Mercura (YC W25)
+
+Company: Mercura
+Location: Munich, Germany (in-person)
+Employment Type: Full-time
+
+Key Responsibilities:
+- Design and build LLM-powered agentic systems end-to-end
+- Develop retrieval and context pipelines (RAG, hybrid search, structured retrieval)
+- Create evaluation and monitoring systems for production AI performance
+- Build scalable data pipelines for processing unstructured documents
+- Implement automated feedback mechanisms for continuous AI improvement
+- Own AI system architecture, reliability, speed, and scalability
+- Integrate AI capabilities deeply into product experiences
+
+Required Technical Skills:
+- Python (required)
+- Architecting and building AI/LLM-powered systems in production
+- Model serving and agent workflow orchestration
+- Monitoring and scaling AI workloads
+- Processing and structuring large unstructured data volumes
+- Developing evaluation and feedback loops for AI systems
+- Full-stack development (React, TypeScript, FastAPI) – preferred
+
+Mindset:
+- High agency and ownership, self-directed execution
+- Mission-driven commitment to ambitious goals
+- Product-focused problem-solving
+- Comfort with rapid iteration in startup environments
+- Willingness to work in-person in Munich with higher intensity than a standard 9-5 job
+
+About: YC Winter 2025 batch startup based in Munich.

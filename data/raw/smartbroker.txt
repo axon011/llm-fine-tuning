@@ -1,0 +1,29 @@
+AI Engineer (m/f/d)
+Smartbroker AG
+Berlin, Germany
+Full-time
+Management level (mid-level implied)
+
+About the Company:
+Smartbroker AG is a German fintech company offering online brokerage services.
+
+About the Role:
+AI Engineer building ML and GenAI features for the brokerage platform.
+
+Key Responsibilities:
+- Build and deploy ML and generative AI features
+- Design LLM and RAG systems for financial data
+- Implement AI agents for financial workflows
+- Work with cloud platforms (GCP/AWS)
+- Follow software engineering best practices
+- Ensure data security and privacy compliance
+
+Required Skills:
+- Python and SQL programming (very good level)
+- Machine learning and generative AI expertise
+- LLMs, RAG, and AI agents knowledge
+- Cloud platforms (GCP/AWS)
+- Software engineering best practices
+- Data security and privacy familiarity
+
+Language: Strong English communication and presentation skills required, German is a plus

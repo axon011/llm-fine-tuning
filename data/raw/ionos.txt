@@ -1,0 +1,34 @@
+AI Developer with Python for Customer Care AI Platform team (hybrid)
+IONOS
+Karlsruhe, Germany (Hybrid)
+Full-time, Entry-level
+
+About the Company:
+IONOS is Europe's leading digitalization partner for SMEs, serving 6M+ customers across 18 markets. Cloud infrastructure, hosting, and cloud services.
+
+About the Role:
+Build AI-powered customer care platform serving 2000+ users across 20+ locations, supporting 8 million customer contracts.
+
+Key Responsibilities:
+- Design LLM-based agentic workflows with tool usage, workflow orchestration, and Model Context Protocol
+- Create high-performance RAG/CAG pipelines with accurate, low-latency responses
+- Build real-time speech-to-speech pipelines with streaming and latency optimization
+- Develop automated QA using LLM-as-a-judge patterns for accuracy, safety, and resolution quality
+- Integrate commercial (OpenAI, Anthropic, Google) and open-source models (Qwen, DeepSeek)
+
+Required Skills:
+- Python with async programming (FastAPI, asyncio)
+- LLM multi-step workflows, stateful agents, tool invocation
+- Orchestration frameworks: LangChain, LlamaIndex, or LangGraph
+- Vector databases: Weaviate, Qdrant, pgvector, Elasticsearch
+- Low-latency system design, event-driven architectures
+- Evaluation frameworks, automated QA pipelines
+- RESTful API design, OAuth2
+
+Nice-to-Have:
+- Streaming architecture experience
+- Semantic search and embedding strategies
+- Re-ranking techniques
+- Quality vs cost vs speed trade-offs
+
+Language: English (international team)

@@ -1,0 +1,20 @@
+{
+  "title": "AI Engineer",
+  "company": "NETCONOMY",
+  "location": "Berlin / Dortmund, Germany",
+  "work_model": "hybrid",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "LLMs",
+    "RAG",
+    "Azure",
+    "Docker"
+  ],
+  "nice_to_have": [
+    "AWS",
+    "GCP"
+  ],
+  "salary": "50,000-90,000 EUR",
+  "language": "English"
+}

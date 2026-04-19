@@ -1,0 +1,54 @@
+Junior AI Engineer - Lovehoney Group
+
+Location: Berlin, Germany (Hybrid - 3 days in-office)
+Employment Type: Full-time
+Experience Level: Junior/Entry-level
+
+Key Responsibilities:
+- Develop and implement LLM-based applications with advanced prompting techniques
+- Research and prototype new AI methodologies under senior guidance
+- Build RAG systems for departmental information management
+- Create automated workflows using platforms like ChatGPT Agents and n8n
+- Support AI product development from prototype to deployment
+- Collaborate with cross-functional teams on AI solutions
+
+Required Skills & Qualifications:
+
+Technical Foundation:
+- Solid Python programming skills
+- Exposure to ML frameworks (PyTorch, TensorFlow, LangChain, LlamaIndex)
+- Basic LLM concepts understanding
+- SQL proficiency for data manipulation
+- Willingness to learn data warehouse technologies (BigQuery, Snowflake, Redshift)
+
+AI-Assisted Development:
+- Experience with or strong interest in AI tools like Cursor or GitHub Copilot
+- Enthusiasm for leveraging AI to improve coding efficiency
+
+Version Control:
+- Git and collaborative workflow knowledge
+- Experience with GitHub, GitLab, or Bitbucket
+- Understanding of branching, pull requests, and code review
+
+Supporting Technologies:
+- Basic Docker or containerization understanding
+- Familiarity with cloud platforms
+- Interest in workflow automation
+
+Soft Skills:
+- Problem-solving with creative AI leveraging
+- Active learner committed to staying current with AI trends
+- Growth mindset with eagerness for increased responsibilities
+
+Benefits:
+- Hybrid work model (3 days in-office, up to 4 weeks remote annually)
+- 25+ days holiday plus additional day per year
+- Gym benefits and mental wellness platform
+- Customized training and biannual feedback cycles
+
+Interview Process:
+1. CV review
+2. Talent Acquisition Team interview
+3. Hiring Team interview
+4. Technical Code Review Session (on-site)
+5. Hiring Manager interview

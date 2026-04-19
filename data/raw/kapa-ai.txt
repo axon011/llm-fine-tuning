@@ -1,0 +1,30 @@
+Research Engineer, Applied AI
+kapa.ai
+Remote within Europe (distributed team, Copenhagen office available)
+Full-time
+Entry-level (Berufseinstieg)
+
+About the Company:
+kapa.ai builds AI-powered technical documentation access. Helps developers find answers in docs using AI.
+
+About the Role:
+Improve AI-assisted technical documentation access. Evaluate RAG systems in production without labelled data, design benchmarks, and build agentic retrieval systems.
+
+Key Responsibilities:
+- Evaluate RAG systems in production without labelled data
+- Design benchmarks for retrieval and generation quality
+- Build agentic retrieval systems
+- Improve information retrieval (lexical and dense vector search)
+- Collaborate with founding team
+
+Required Skills:
+- Master's/PhD in Computer Science, ML, Mathematics, Statistics
+- Deep learning and NLP expertise
+- LLM training, fine-tuning, deployment experience
+- Vector databases and search indices knowledge
+- Evaluation systems for LLMs
+- Information retrieval techniques (lexical and dense vector search)
+
+Compensation: $100,000-$170,000 annually
+
+Language: English (JD in English, distributed European team)

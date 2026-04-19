@@ -1,0 +1,20 @@
+{
+  "title": "Research Engineer Applied AI",
+  "company": "kapa.ai",
+  "location": "Remote EU",
+  "work_model": "remote",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "RAG",
+    "LLM evaluation",
+    "information retrieval",
+    "embeddings"
+  ],
+  "nice_to_have": [
+    "fine-tuning",
+    "TypeScript"
+  ],
+  "salary": "100,000-170,000 USD",
+  "language": "English"
+}

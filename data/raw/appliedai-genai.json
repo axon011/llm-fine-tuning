@@ -1,0 +1,26 @@
+{
+  "title": "Generative AI Engineer",
+  "company": "appliedAI Initiative GmbH",
+  "location": "Munich / Heilbronn, Germany",
+  "work_model": "hybrid",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "LangChain",
+    "LangGraph",
+    "AutoGen",
+    "RAG",
+    "multi-agent systems",
+    "Transformer architectures",
+    "prompt engineering",
+    "Docker",
+    "CI/CD",
+    "Azure/AWS/GCP"
+  ],
+  "nice_to_have": [
+    "Vision Language Models",
+    "small language models"
+  ],
+  "salary": "",
+  "language": "German + English"
+}

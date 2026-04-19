@@ -1,0 +1,36 @@
+Junior AI Engineer
+top.legal
+Germany | Remote | Relocation available
+Full-time
+
+About the Role:
+Junior AI Engineer position at top.legal, a legal tech company. The role focuses on developing AI projects with Python and NLP techniques, building inference systems, and implementing RAG pipelines.
+
+Key Responsibilities:
+- Assist in coding and development of AI projects focusing on Python and NLP techniques
+- Participate in testing and refining AI models under supervision of senior engineers
+- Learn and apply new AI methodologies, including retrieval-augmented generation and LLM fine-tuning
+- Engage in team discussions, code reviews, and collaborative development
+- Support documentation of AI systems and project outcomes
+- Adhere to best practices in AI ethics, data privacy, and model transparency
+
+Core Technical Focus Areas:
+1. Literature Review: Identify research on dialogue systems integrating LLM, passage retrieval, and semantic textual similarity
+2. Inference Development: Build answer generation processes with LLM output verification
+3. Model Optimization: Implement fine-tuning strategies using PEFT+QLoRA and AutoGPTQ quantization
+4. RAG Implementation: Deploy retrieval-augmented generation techniques
+
+Required Skills:
+- Hands-on experience with LangChain, Python, PyTorch, or Javascript
+- Basic understanding of NLP and machine learning concepts
+- Experience handling AI projects (development, testing, deployment)
+
+Benefits:
+- Competitive salary with performance-based incentives
+- Ongoing training and development opportunities
+- Clear advancement pathways
+- Hybrid work flexibility
+- Experienced international team from top universities
+- Mission-driven product with real-world legal tech impact
+
+Language: English (international team)

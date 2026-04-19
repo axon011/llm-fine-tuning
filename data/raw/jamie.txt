@@ -1,0 +1,37 @@
+AI Engineer - top 5% salary band in Europe
+Jamie
+Berlin, Germany (Hybrid/Remote possible, preference for Berlin Mitte office)
+Full-time, Permanent
+Mid-level (2+ years preferred)
+English-friendly
+
+About the Company:
+Jamie is an early-stage startup building an AI meeting note platform. Core team membership with significant influence. Fast-growth learning environment with modern development tools and AI agents.
+
+About the Role:
+Turn user needs and product ideas into robust, well-crafted code and prompts for an AI meeting note platform. Iterate rapidly using user feedback and analytics to drive product metrics. Collaborate with founders to define, experiment, and enhance user experience.
+
+Key Responsibilities:
+- Turn user needs and product ideas into robust, well-crafted code and prompts
+- Iterate rapidly using user feedback and analytics to drive product metrics
+- Collaborate with founders to define, experiment, and enhance user experience
+- Ensure delivery of reliable, high-quality products
+
+Required Skills:
+- Strong product mindset with deep user experience focus
+- ML/AI pipeline optimization, MLOps, and prompt engineering experience
+- Proven software development background (2+ years preferred)
+- Adaptability and quick learning in fast-paced, evolving environments
+
+Nice-to-Have:
+- Side projects or demonstrable past work examples
+
+Benefits:
+- Core team membership with significant influence
+- Fast-growth learning environment
+- Modern development tools and AI agents
+- Competitive salary and VSOP (stock options)
+- Beautiful Berlin Mitte office
+- Team events and offsites
+
+Application deadline: May 26, 2026

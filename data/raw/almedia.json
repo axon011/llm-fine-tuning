@@ -1,0 +1,21 @@
+{
+  "title": "AI Full Stack Engineer",
+  "company": "Almedia",
+  "location": "Berlin, Germany",
+  "work_model": "hybrid",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "Node.js",
+    "React",
+    "LLM integration",
+    "RAG",
+    "Docker"
+  ],
+  "nice_to_have": [
+    "TypeScript",
+    "AWS"
+  ],
+  "salary": "",
+  "language": "English"
+}

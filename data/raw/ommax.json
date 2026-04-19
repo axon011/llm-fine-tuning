@@ -1,0 +1,21 @@
+{
+  "title": "AI/LLM Application Engineer",
+  "company": "OMMAX",
+  "location": "Munich, Germany",
+  "work_model": "hybrid",
+  "seniority": "entry-level",
+  "required_skills": [
+    "Python",
+    "LangChain",
+    "LangGraph",
+    "RAG",
+    "React",
+    "FastAPI"
+  ],
+  "nice_to_have": [
+    "Docker",
+    "Kubernetes"
+  ],
+  "salary": "",
+  "language": "English"
+}

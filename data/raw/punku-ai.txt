@@ -1,0 +1,31 @@
+AI SWE
+PUNKU.AI
+Cottbus, Germany
+Full-time
+Entry-level (Berufseinstieg)
+
+About the Company:
+PUNKU.AI is the leading AI Agent platform for Small and Medium-sized Enterprises (SMEs) globally. Mission focuses on addressing workforce shortages in SMEs through AI-powered solutions that bridge critical skill gaps and enable business competitiveness.
+
+About the Role:
+Build the AI Agent platform enabling SME customers to create their own AI Agents. Design, develop, and maintain essential platform components.
+
+Key Responsibilities:
+- Build intuitive interfaces and abstractions enabling customers to build their own AI Agents
+- Design, develop, and maintain essential platform components using Python and TypeScript
+- Produce clean, scalable, and well-documented code
+- Stay informed about emerging technologies and apply innovations to business challenges
+
+Required Skills:
+- Background in Computer Science, Software Engineering, or equivalent field
+- Self-directed learning capability with efficient project completion
+- Proactive thinking and independent execution without supervision
+- Strong proficiency in TypeScript and Python
+- AWS cloud infrastructure experience
+
+Nice-to-Have:
+- LangChain familiarity
+- Entrepreneurial mindset with future founder ambitions
+
+Language: Not specified (German posting, but technical English likely)
+Note: 200+ applications received

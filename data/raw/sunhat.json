@@ -1,0 +1,22 @@
+{
+  "title": "AI Software Engineer",
+  "company": "Sunhat GmbH",
+  "location": "Cologne / Remote, Germany",
+  "work_model": "remote",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "LLMs",
+    "RAG",
+    "agentic systems",
+    "FastAPI",
+    "Docker"
+  ],
+  "nice_to_have": [
+    "Angular",
+    "Nest.js",
+    "Vertex AI"
+  ],
+  "salary": "65,000-95,000 EUR",
+  "language": "English"
+}

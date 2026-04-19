@@ -1,0 +1,23 @@
+{
+  "title": "Junior AI Engineer",
+  "company": "Lovehoney Group",
+  "location": "Berlin, Germany",
+  "work_model": "hybrid",
+  "seniority": "junior",
+  "required_skills": [
+    "Python",
+    "LLMs",
+    "RAG",
+    "LangChain",
+    "LlamaIndex",
+    "SQL",
+    "Docker"
+  ],
+  "nice_to_have": [
+    "n8n",
+    "BigQuery",
+    "Snowflake"
+  ],
+  "salary": "",
+  "language": "English"
+}

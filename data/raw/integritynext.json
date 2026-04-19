@@ -1,0 +1,23 @@
+{
+  "title": "AI Engineer",
+  "company": "IntegrityNext",
+  "location": "Munich / Remote DE",
+  "work_model": "remote",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "LangChain",
+    "LangGraph",
+    "AWS Bedrock",
+    "RAG",
+    "agentic systems",
+    "evaluation frameworks"
+  ],
+  "nice_to_have": [
+    "React",
+    "Java",
+    "AI observability"
+  ],
+  "salary": "",
+  "language": "English"
+}

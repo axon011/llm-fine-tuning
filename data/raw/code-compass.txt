@@ -1,0 +1,20 @@
+AI Software Engineer (m/f/d) - Hamburg
+Code Compass
+Hamburg, Germany (Remote available)
+Full-time
+Mid-level (2+ years)
+
+About the Company:
+Code Compass is a tech company in Hamburg.
+
+About the Role:
+AI Software Engineer building AI-powered applications with Python, ML frameworks, and LLM integration.
+
+Required Skills:
+- Python or TypeScript/Node.js (2+ years professional experience)
+- AI/ML frameworks (PyTorch, TensorFlow, or similar) and LLM integration
+- REST APIs, LLMs, Transformers, NLP, Machine Learning
+
+Compensation: 55,000 - 85,000 EUR + Bonus
+
+Language: German JD (English not explicitly stated)

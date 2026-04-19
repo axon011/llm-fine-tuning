@@ -1,0 +1,23 @@
+{
+  "title": "Applied AI Engineer",
+  "company": "MAIA",
+  "location": "Leipzig / Remote DE",
+  "work_model": "remote",
+  "seniority": "mid-level",
+  "required_skills": [
+    "TypeScript",
+    "Go",
+    "RAG",
+    "agentic workflows",
+    "LLM integrations",
+    "PostgreSQL",
+    "vector databases"
+  ],
+  "nice_to_have": [
+    "Supabase",
+    "document analysis",
+    "LLM tracing"
+  ],
+  "salary": "75,000-85,000 EUR",
+  "language": "English"
+}

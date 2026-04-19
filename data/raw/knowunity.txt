@@ -1,0 +1,28 @@
+AI Engineer
+Knowunity
+Berlin, Germany (5 days/week on-site)
+Full-time
+Entry-level (Berufseinstieg)
+
+About the Company:
+Knowunity is an education platform serving millions of students. 60-person team.
+
+About the Role:
+Build personalized learning features using LLMs. Ship AI products quickly, own features end-to-end.
+
+Key Responsibilities:
+- Build personalized AI learning features for millions of students
+- Ship AI products quickly with end-to-end ownership
+- Work with LLMs, backend systems, and analytics
+
+Required Skills:
+- LLM experience and prompt engineering
+- Backend language proficiency (Go, TypeScript, Python)
+- English fluency
+
+Nice-to-Have:
+- German is a plus
+
+Compensation: Competitive equity, not disclosed
+
+Language: Fluent English required, German is a plus

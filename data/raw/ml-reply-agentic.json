@@ -1,0 +1,24 @@
+{
+  "title": "Agentic AI Software Engineer",
+  "company": "Machine Learning Reply",
+  "location": "Munich, Germany",
+  "work_model": "hybrid",
+  "seniority": "entry-level",
+  "required_skills": [
+    "Python",
+    "Java",
+    "agentic AI",
+    "multi-step workflows",
+    "cloud platforms",
+    "FastAPI",
+    "SQL/NoSQL"
+  ],
+  "nice_to_have": [
+    "LLM frameworks",
+    "Docker",
+    "Kubernetes",
+    "client-facing skills"
+  ],
+  "salary": "",
+  "language": "English"
+}

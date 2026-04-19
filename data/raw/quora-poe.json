@@ -1,0 +1,21 @@
+{
+  "title": "AI Engineer New Grad 2025-2026",
+  "company": "Quora / Poe",
+  "location": "Remote",
+  "work_model": "remote",
+  "seniority": "entry-level",
+  "required_skills": [
+    "Python",
+    "TypeScript",
+    "LLM applications",
+    "transformer models",
+    "machine learning"
+  ],
+  "nice_to_have": [
+    "RAG",
+    "prompt engineering",
+    "agentic workflows"
+  ],
+  "salary": "107,360-152,900 USD",
+  "language": "English"
+}

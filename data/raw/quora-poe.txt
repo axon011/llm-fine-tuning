@@ -1,0 +1,27 @@
+AI Engineer New Grad 2025-2026 - Poe (Remote)
+Quora / Poe
+Remote (Multiple countries)
+
+About the Role:
+Quora seeks new graduates for their Poe AI platform, which provides access to multiple language models. The role emphasizes end-to-end ownership of applied AI systems, from prototyping through deployment.
+
+Requirements:
+- 2025 or Summer 2026 graduate with B.S., M.S., or Ph.D. in Computer Science/Engineering
+- Strong engineering background (Python or TypeScript)
+- Understanding of machine learning mathematical foundations
+- Experience of LLM applications or transformer models
+- Available during coordination hours (Mon-Fri, 9am-3pm Pacific Time)
+
+Tech Stack:
+- Python or TypeScript
+- LLM/transformer-based systems
+- Retrieval-augmented generation (RAG)
+- Prompt engineering
+- Agentic workflows
+
+Preferred:
+- Prior software engineering experience
+- Hands-on LLM work
+- End-to-end ownership of applied AI systems
+
+Compensation (US): $107,360-$152,900 + equity + benefits

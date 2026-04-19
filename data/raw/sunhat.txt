@@ -1,0 +1,42 @@
+AI Software Engineer (m/f/d)
+Sunhat GmbH
+Cologne HQ / Berlin / Hamburg / Remote (CET/CEST timezone)
+Permanent, Full-time
+Seniority: Experienced (2-5 years)
+
+About the Company:
+Sunhat is an AI-driven SaaS company rethinking how businesses approach sustainability performance and reporting. Building a next-generation platform to deliver scalability and verifiable data across all ESG requirements. Raised EUR 14.2M total (EUR 9.2M Series A). 35 employees, growing to 70.
+
+About the Role:
+Drive generative AI initiatives from concept through deployment. Evaluate and integrate large language models into production systems, orchestrate AI agents, build text generation and semantic similarity features, and optimize for scalability and security.
+
+Key Responsibilities:
+- Evaluate and integrate LLMs into production systems
+- Orchestrate AI agents
+- Build text generation and semantic similarity features
+- Optimize for scalability and security
+- Collaborate with software engineers and sustainability experts on platform integration
+
+Required Skills:
+- Production experience with GenAI/LLMs (Gemini, Mistral, Claude, Llama)
+- TypeScript expertise with production system integration
+- Agentic workflows and RAG systems
+- CI/CD practices with GitHub
+- Modern LLMOps practices and Test-Driven Development
+- B2B SaaS implementation experience
+- Fluent English communication
+
+Nice-to-Have:
+- Python knowledge
+- Angular and Nest.js experience
+- Vertex AI experience
+- Data privacy and performance optimization in cloud ML environments
+
+Benefits:
+- Flexible remote work (CET/CEST timezone)
+- Competitive salary with equity options (EUR 65,000-95,000)
+- Family-friendly flexibility
+- Professional development budget
+- EUR 50 monthly wellness benefit
+
+Language: English (fluency required)

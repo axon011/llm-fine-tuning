@@ -1,0 +1,20 @@
+{
+  "title": "Associate Data Scientist AI",
+  "company": "DHL",
+  "location": "Bonn, Germany",
+  "work_model": "hybrid",
+  "seniority": "entry-level",
+  "required_skills": [
+    "Python",
+    "SQL",
+    "RAG",
+    "agent orchestration",
+    "ML fundamentals"
+  ],
+  "nice_to_have": [
+    "Java",
+    "AWS"
+  ],
+  "salary": "",
+  "language": "English"
+}

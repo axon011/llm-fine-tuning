@@ -1,0 +1,38 @@
+Graduate AI software engineer
+Bending Spoons
+Berlin, Germany (also Milan, London, Madrid, Warsaw, or remote in selected countries)
+Full-time, Permanent or fixed-term
+Entry-level / Graduate
+
+About the Company:
+Bending Spoons is a technology company with 150M+ users. Products include Evernote, Meetup, StreamYard, and Remini. Team of 500+ across Europe.
+
+About the Role:
+Graduate AI software engineer joining a team that builds AI-powered features across Bending Spoons' product portfolio. Work on real products with massive user bases from day one.
+
+Key Responsibilities:
+- AI/ML software development across diverse products
+- Full-stack development across varied tech stacks
+- Problem-solving and reasoning on complex AI challenges
+- Collaborating with cross-functional teams
+
+Required Skills:
+- Problem-solving and reasoning ability
+- AI/ML software development experience
+- Full-stack development across diverse tech stacks
+- Python, Rust, Docker, Kubernetes, microservices architecture
+- Strong drive and team collaboration
+- Proficiency in English (read, write, speak)
+
+Nice-to-Have:
+- Outstanding potential regardless of traditional experience markers
+
+Compensation:
+- Entry-level: €66,065 annually (outside London)
+- Experienced: €107,837-€188,848 (Europe)
+- Equity options available
+- 50% tax benefit if relocating to Italy
+
+Application: Open to candidates with or without degree, values potential over credentials
+
+Language: English required

@@ -1,0 +1,22 @@
+{
+  "title": "Applied AI Engineer, Fullstack Software Engineer",
+  "company": "Mistral AI",
+  "location": "Paris / Marseille / London / Amsterdam",
+  "work_model": "hybrid",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "full-stack development"
+  ],
+  "nice_to_have": [
+    "LLM/GenAI",
+    "open-source contributions",
+    "customer engineering"
+  ],
+  "salary": "",
+  "language": "English"
+}

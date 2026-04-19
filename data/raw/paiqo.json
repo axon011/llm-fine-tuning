@@ -1,0 +1,20 @@
+{
+  "title": "AI Engineer II Agentic AI Platform",
+  "company": "Paiqo",
+  "location": "Paderborn / Remote DE",
+  "work_model": "remote",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "Azure",
+    "agentic AI",
+    "RAG",
+    "Docker"
+  ],
+  "nice_to_have": [
+    "Kubernetes",
+    "CI/CD"
+  ],
+  "salary": "",
+  "language": "German (B2) + English"
+}

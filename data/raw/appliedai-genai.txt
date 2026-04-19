@@ -1,0 +1,33 @@
+Generative AI Engineer (m/f/x)
+appliedAI Initiative GmbH
+Munich (81671) and Heilbronn, Germany
+Full-time, Permanent, Hybrid
+Experienced (2-5 years)
+
+About the Company:
+appliedAI Initiative GmbH is a team of ~90 people working across the European AI sector. Offices at IPAI in Heilbronn and House of Communication in Munich.
+
+About the Role:
+Apply generative AI and multi-agent systems strategically to address complex business challenges. Design and implement RAG solutions, agentic workflows, and multi-agent systems for specific customer requirements. Bridge AI research and software engineering to ensure robust, scalable system design. Lead LLM deployments and optimization techniques for customer value.
+
+Key Responsibilities:
+- Apply generative AI and multi-agent systems to complex business challenges
+- Design and implement RAG solutions, agentic workflows, and multi-agent systems
+- Bridge AI research and software engineering for robust, scalable systems
+- Lead LLM deployments and optimization techniques
+
+Required Skills:
+- Strong expertise in machine learning, deep learning, and generative AI with academic foundation
+- Minimum 2 years in engineering, software development, or related fields
+- Python proficiency with GenAI frameworks: LangChain, LangGraph, AutoGen, Azure AI Foundry, Computer Use
+- Understanding of Transformer architectures, embedding models, and prompt engineering (chain-of-thought)
+- DevOps/MLOps familiarity: containerization, CI/CD, LLM automation
+- Cloud platform knowledge: Microsoft Azure, AWS, or GCP
+- Strong problem-solving and collaboration abilities
+- Fluent German and English required
+
+Nice-to-Have:
+- Vision Language Model (VLM) expertise
+- Open-source small language model (SLM) project experience
+
+Benefits: Unlimited growth budget, Wellpass, JobRad, up to 3-month sabbatical, PME family services, monthly mobility budget, EU/EWR workation up to 3 months

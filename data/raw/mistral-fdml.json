@@ -1,0 +1,22 @@
+{
+  "title": "Forward Deployed Machine Learning Engineer",
+  "company": "Mistral AI",
+  "location": "Paris / London / Munich / Amsterdam",
+  "work_model": "on-site",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "AI/ML products",
+    "fine-tuning LLMs",
+    "RAG",
+    "agentic systems",
+    "APIs"
+  ],
+  "nice_to_have": [
+    "open-source contributions",
+    "customer engineering",
+    "PyTorch"
+  ],
+  "salary": "",
+  "language": "English"
+}

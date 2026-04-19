@@ -1,0 +1,19 @@
+{
+  "title": "AI Engineer",
+  "company": "Knowunity",
+  "location": "Berlin, Germany",
+  "work_model": "hybrid",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "LLMs",
+    "fine-tuning",
+    "RAG",
+    "evaluation"
+  ],
+  "nice_to_have": [
+    "EdTech domain"
+  ],
+  "salary": "",
+  "language": "English"
+}

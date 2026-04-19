@@ -1,0 +1,19 @@
+{
+  "title": "AI Engineer",
+  "company": "ellamind",
+  "location": "Berlin / Bremen, Germany",
+  "work_model": "hybrid",
+  "seniority": "entry-level",
+  "required_skills": [
+    "Python",
+    "LLM evaluation",
+    "RAG",
+    "prompt engineering"
+  ],
+  "nice_to_have": [
+    "TypeScript",
+    "React"
+  ],
+  "salary": "60,000-100,000 EUR",
+  "language": "English"
+}

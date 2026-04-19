@@ -1,0 +1,23 @@
+{
+  "title": "AI Developer with Python",
+  "company": "IONOS",
+  "location": "Karlsruhe / Berlin, Germany",
+  "work_model": "hybrid",
+  "seniority": "entry-level",
+  "required_skills": [
+    "Python",
+    "FastAPI",
+    "LangChain",
+    "LangGraph",
+    "RAG",
+    "vector databases",
+    "Docker"
+  ],
+  "nice_to_have": [
+    "Speech-to-Speech",
+    "OAuth2",
+    "Java"
+  ],
+  "salary": "",
+  "language": "English"
+}

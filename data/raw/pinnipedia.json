@@ -1,0 +1,23 @@
+{
+  "title": "AI Engineer (LLMs + Knowledge Graphs)",
+  "company": "Pinnipedia Technologies GmbH",
+  "location": "Berlin / Ketzin, Germany",
+  "work_model": "hybrid",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "knowledge graphs",
+    "ontology design",
+    "SPARQL/Cypher",
+    "RAG",
+    "evaluation metrics"
+  ],
+  "nice_to_have": [
+    "ML/LLM observability",
+    "AWS/Azure",
+    "Docker",
+    "CI/CD"
+  ],
+  "salary": "60,000-85,000 EUR",
+  "language": "English"
+}

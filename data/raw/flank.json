@@ -1,0 +1,20 @@
+{
+  "title": "AI Engineer",
+  "company": "Flank",
+  "location": "Berlin, Germany",
+  "work_model": "on-site",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "LLM agents",
+    "RAG",
+    "document processing",
+    "evaluation frameworks"
+  ],
+  "nice_to_have": [
+    "legal domain",
+    "contract automation"
+  ],
+  "salary": "",
+  "language": "English"
+}

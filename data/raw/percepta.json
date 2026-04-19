@@ -1,0 +1,22 @@
+{
+  "title": "Applied AI Engineer",
+  "company": "Percepta",
+  "location": "London / European Union",
+  "work_model": "on-site",
+  "seniority": "senior",
+  "required_skills": [
+    "AI deployment",
+    "stakeholder collaboration",
+    "production AI systems"
+  ],
+  "nice_to_have": [
+    "LangGraph",
+    "RAG pipelines",
+    "multi-step agents",
+    "Python",
+    "TypeScript",
+    "AWS/GCP/Azure"
+  ],
+  "salary": "185,000-230,000 GBP",
+  "language": "English"
+}

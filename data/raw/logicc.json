@@ -1,0 +1,23 @@
+{
+  "title": "AI Engineer",
+  "company": "Logicc",
+  "location": "Hamburg, Germany",
+  "work_model": "remote/hybrid/onsite",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "LLM integration",
+    "RAG",
+    "agentic systems",
+    "model evaluation",
+    "coding agents"
+  ],
+  "nice_to_have": [
+    "C#",
+    "React",
+    "Next.js",
+    "Tailwind"
+  ],
+  "salary": "55,000-70,000 EUR",
+  "language": "German"
+}

@@ -1,0 +1,35 @@
+AI Engineer (m/w/d) - Startup
+Logicc
+Hamburg, Germany (Flexible: Remote, Hybrid, or on-site)
+Full-time, Permanent
+Mid-level, German language JD
+
+About the Company:
+Logicc is a European AI platform startup emphasizing highest data protection standards with all data stored exclusively in Germany and encrypted throughout.
+
+About the Role:
+Design, develop, and maintain AI features from concept through release. Build and improve RAG systems, develop agentic systems, and create infrastructure for model evaluation, comparison, monitoring, and continuous improvement.
+
+Key Responsibilities:
+- Design, develop, and maintain AI features from concept through release
+- Build and improve RAG systems including document parsing, chunking, and retrieval
+- Develop agentic systems for complex user tasks
+- Create infrastructure for model evaluation, comparison, monitoring, and continuous improvement
+- Test latest AI models and tools, implementing viable approaches into production solutions
+- Collaborate closely with Product and Engineering teams on technical decisions
+
+Required Skills:
+- Practical experience building software products with LLM integration
+- Strong software engineering background; focus on clean, maintainable systems
+- Proficiency in Python and typical AI/ML ecosystem tools
+- Understanding of modern AI product components: RAG, Tool Use, Evals, agentic systems
+- Independent, fast-paced work style with high implementation standards
+- Practical experience with coding agents (emphasized requirement)
+
+Nice-to-Have:
+- C# or similar language experience
+- React, Next.js, and Tailwind expertise
+
+Salary: €55,000 - €70,000 annually
+
+Benefits: Flexible work hours and location, Deutschland-Ticket subsidy, Wellpass membership, team events, Hamburg city-center office

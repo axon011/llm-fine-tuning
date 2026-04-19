@@ -1,0 +1,31 @@
+Applied AI Engineer (f/m/x) - MAIA
+
+Location: Leipzig, Germany (Remote-first, fully remote within Germany)
+Salary: €75,000 - €85,000 annually
+
+Key Responsibilities:
+The role focuses on building production-grade AI systems. Core duties include developing RAG pipelines, retrieval strategies, agentic workflows, and LLM integrations that function reliably in production environments. The engineer designs and ships features from conception through production deployment, with emphasis on backend and AI functionality. Additional responsibilities include constructing evaluation frameworks for LLM features and exploring emerging technologies to advance team capabilities.
+
+Required Technical Skills:
+- Strong backend engineering in TypeScript or strongly-typed languages (Go, Java, Rust)
+- Production REST API development experience
+- Advanced SQL proficiency, preferably PostgreSQL
+- Hands-on LLM application building with RAG system exposure
+- Commercial experience with LLM frameworks and vector databases
+- Production system debugging using observability tools (Grafana, Sentry, PostHog)
+- Cloud and DevOps fundamentals
+- Secure development best practices
+- Fluent English; German is advantageous
+
+Required Work Style Competencies:
+Candidates should demonstrate strong ownership mentality, collaborative interpersonal skills, active AI exploration, pragmatic problem-solving, business-focused prioritization, startup environment comfort, and clear stakeholder communication across technical and non-technical audiences.
+
+Nice-to-Have Skills:
+- Supabase experience
+- Document analysis and retrieval preprocessing pipelines
+- Automated LLM feature evaluation and testing
+- LLM tracing and analytics
+
+Experience Level: Professional/Experienced
+
+Hiring Timeline: Target completion by May 2026 (three-stage process: initial call, technical interview, leadership conversation)

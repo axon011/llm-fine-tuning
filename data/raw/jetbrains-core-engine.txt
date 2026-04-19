@@ -1,0 +1,30 @@
+AI Engineer (Core Engine)
+JetBrains
+Berlin/Munich, Germany (distributed across 10 EU offices)
+Full-time, Permanent
+Mid-Senior level (5+ years NLP)
+
+About the Company:
+JetBrains is a global software company known for creating professional development tools (IntelliJ IDEA, PyCharm, Kotlin). Teams are distributed across core locations in Europe.
+
+About the Role:
+The AI Engineer (Core Engine) will work on AI-augmented developer tools, converting product needs into agentic tools and services shipped to production. Focus on semantic search, code retrieval, and evaluation pipelines for coding task performance.
+
+Key Responsibilities:
+- Convert product needs into agentic tools and services and ship them to production
+- Expand prototypes to accommodate large user bases
+- Enhance and validate semantic search capabilities
+- Create evaluation pipelines for code retrieval and coding task performance
+
+Required Skills:
+- Minimum five years hands-on NLP experience
+- Information retrieval systems expertise
+- Strong experience in LLM prompt and tool engineering, as well as with AI agents
+- Python and/or Kotlin proficiency with openness to language learning
+- Production software system development and operation experience
+
+Nice-to-Have:
+- Kotlin or Java development background
+- Prior engagement with code intelligence technologies (AST, symbol graphs)
+
+Language: English

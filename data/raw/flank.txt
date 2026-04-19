@@ -1,0 +1,27 @@
+AI Engineer - Flank
+
+Company: Flank
+Location: Berlin, Germany
+Employment Type: Full-time
+
+About: Flank is the leading Agentic AI platform for in-house legal teams — built for a future where autonomous AI colleagues handle entire workflows. Companies like TravelPerk, QA, and Mural use Flank to automate contract negotiation, email triage, and security reviews.
+
+Key Responsibilities:
+- Drive applied AI initiatives and ship real AI into production
+- Build and improve agentic AI systems for legal workflow automation
+- Develop autonomous AI agents for contract negotiation, email triage, and security reviews
+- Work closely with product, design, and commercial teams
+- Design and implement LLM-powered pipelines for document processing
+- Build evaluation and monitoring systems for production AI quality
+
+Required Skills (inferred from company domain):
+- Python programming
+- LLM frameworks (LangChain, LangGraph or similar)
+- Agentic AI / multi-agent systems
+- RAG and retrieval pipelines for document processing
+- Production deployment experience (Docker, Kubernetes)
+- Evaluation frameworks for AI quality
+- Strong problem-solving abilities
+
+Experience Level: Experienced (years unspecified)
+Language: English (Berlin startup, international clients)

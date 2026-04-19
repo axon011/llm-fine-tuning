@@ -1,0 +1,18 @@
+{
+  "title": "AI Engineer",
+  "company": "Smartbroker AG",
+  "location": "Berlin, Germany",
+  "work_model": "hybrid",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "LLMs",
+    "RAG",
+    "agentic systems"
+  ],
+  "nice_to_have": [
+    "fintech domain"
+  ],
+  "salary": "",
+  "language": "English"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Founding AI Engineer",
+  "company": "Omnora",
+  "location": "Frankfurt, Germany",
+  "work_model": "hybrid",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "LangGraph",
+    "LangChain",
+    "knowledge graphs",
+    "RAG"
+  ],
+  "nice_to_have": [
+    "Neo4j",
+    "LiveKit"
+  ],
+  "salary": "",
+  "language": "English"
+}

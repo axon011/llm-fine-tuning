@@ -1,0 +1,21 @@
+{
+  "title": "AI Engineer",
+  "company": "Semorai GmbH",
+  "location": "Heilbronn / Munich, Germany",
+  "work_model": "hybrid",
+  "seniority": "entry-level",
+  "required_skills": [
+    "Python",
+    "LLMs",
+    "multi-agent architectures",
+    "Neo4j",
+    "Qdrant",
+    "gRPC",
+    "Docker"
+  ],
+  "nice_to_have": [
+    "microservices"
+  ],
+  "salary": "",
+  "language": ""
+}

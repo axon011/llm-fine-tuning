@@ -1,0 +1,24 @@
+{
+  "title": "AI Engineer (Core Engine)",
+  "company": "JetBrains",
+  "location": "Berlin / Munich, Germany",
+  "work_model": "distributed",
+  "seniority": "senior",
+  "required_skills": [
+    "Python",
+    "Kotlin",
+    "NLP",
+    "information retrieval",
+    "LLM prompt engineering",
+    "AI agents",
+    "semantic search"
+  ],
+  "nice_to_have": [
+    "Java",
+    "code intelligence",
+    "AST",
+    "symbol graphs"
+  ],
+  "salary": "",
+  "language": "English"
+}

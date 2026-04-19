@@ -1,0 +1,22 @@
+{
+  "title": "Forward Deployed Engineer, Applied AI",
+  "company": "Anthropic",
+  "location": "Munich, Germany",
+  "work_model": "hybrid",
+  "seniority": "senior",
+  "required_skills": [
+    "Python",
+    "TypeScript",
+    "LLM deployment",
+    "prompt engineering",
+    "agent development",
+    "evaluation frameworks"
+  ],
+  "nice_to_have": [
+    "financial services",
+    "healthcare",
+    "enterprise IT systems"
+  ],
+  "salary": "205,000-220,000 EUR",
+  "language": "German (C1) + English"
+}

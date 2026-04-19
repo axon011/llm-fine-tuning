@@ -1,0 +1,21 @@
+{
+  "title": "AI Engineer",
+  "company": "TPE Consulting",
+  "location": "Germany (Berlin/Munich/Frankfurt/Hamburg/Remote)",
+  "work_model": "remote/hybrid",
+  "seniority": "entry-level",
+  "required_skills": [
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "LLMs",
+    "GenAI",
+    "AWS/GCP/Azure",
+    "MLOps",
+    "Docker",
+    "Kubernetes"
+  ],
+  "nice_to_have": [],
+  "salary": "90,000-150,000 EUR",
+  "language": "English"
+}

@@ -1,0 +1,25 @@
+ML Engineer - Small Language Models
+fastino.ai
+Palo Alto, California (Hybrid or Remote)
+Full-time
+
+About the Company:
+fastino.ai builds specialized, efficient AI. Their GLiNER family of open source models has been downloaded more than 5 million times and is used by companies such as NVIDIA, Meta, and Airbnb. Raised $25M backed by Microsoft, Khosla Ventures, Insight Partners, and executives from Github and Docker. Team includes alumni from Google Research, Apple, Stanford, and Cambridge.
+
+About the Role:
+Design, build, and deploy the critical small language models foundational to fastino's product. Own the full lifecycle of state-of-the-art models from prototyping and data analysis to deployment, monitoring, and continuous improvement.
+
+Requirements:
+- 2+ years of hands-on experience in AI/ML engineering roles
+- Demonstrated proficiency with LLMs
+- Track record of applying AI/ML techniques to solve complex, unstructured problems
+- Comfortable working across the stack from prompt engineering and vector DB tuning to Kubernetes deployment and API design
+
+Tech Stack:
+- Python, ML frameworks
+- LLMs, Small Language Models
+- Vector databases
+- Kubernetes
+- Cloud infrastructure
+
+Language: English

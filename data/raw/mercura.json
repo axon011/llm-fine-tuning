@@ -1,0 +1,22 @@
+{
+  "title": "AI/LLM Engineer",
+  "company": "Mercura",
+  "location": "Munich, Germany",
+  "work_model": "on-site",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "LLM-powered agentic systems",
+    "RAG",
+    "hybrid search",
+    "evaluation systems",
+    "data pipelines"
+  ],
+  "nice_to_have": [
+    "React",
+    "TypeScript",
+    "FastAPI"
+  ],
+  "salary": "",
+  "language": "English"
+}

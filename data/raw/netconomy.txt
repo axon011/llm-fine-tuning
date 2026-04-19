@@ -1,0 +1,38 @@
+AI Engineer (f/m/x)
+NETCONOMY
+Berlin, Germany (Hybrid — 4 days remote/week)
+Full-time, 42 hours/week
+Mid-level (3+ years required)
+
+About the Company:
+NETCONOMY is a European digital consultancy. International team working with enterprise clients on AI transformation.
+
+About the Role:
+Design and implement end-to-end generative AI solutions, RAG pipelines, and intelligent agents for enterprise clients. Conduct research on emerging AI technologies, develop proof-of-concepts, and communicate with clients.
+
+Key Responsibilities:
+- Design and implement end-to-end generative AI solutions
+- Build RAG pipelines and intelligent agents
+- Conduct emerging technology research
+- Develop proof-of-concepts independently
+- Communicate directly with clients
+
+Required Skills:
+- 3+ years of experience in Applied AI or Machine Learning
+- Proficiency in generative AI and agentic applications
+- Agent development frameworks (LangGraph, Google ADK, Agno)
+- Cloud AI platforms (GCP, AWS, Azure)
+- Vector databases
+- Strong communication abilities
+
+Nice-to-Have:
+- Google Cloud AI/ML stack (Vertex AI, Gemini)
+- AI evaluation frameworks (RAGAs, LangSmith)
+- Docker and Kubernetes
+- CI/CD for MLOps
+- A/B testing
+
+Salary: €50,000 - €90,000 annually
+Benefits: 25 days leave, flexible hours, hardware choice, mentoring, wellness, home office, sabbatical, career development
+
+Language: English

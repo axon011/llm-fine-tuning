@@ -1,0 +1,24 @@
+{
+  "title": "AI Engineer for OSS AI Startup",
+  "company": "Rhesis AI GmbH",
+  "location": "Berlin / Potsdam, Germany",
+  "work_model": "hybrid",
+  "seniority": "mid-level",
+  "required_skills": [
+    "Python",
+    "LLMs",
+    "PyTorch",
+    "JAX",
+    "TensorFlow",
+    "HuggingFace",
+    "MLOps",
+    "NLP"
+  ],
+  "nice_to_have": [
+    "deep learning fine-tuning",
+    "cloud-native (GCP/Azure/AWS)",
+    "system design"
+  ],
+  "salary": "",
+  "language": "English"
+}

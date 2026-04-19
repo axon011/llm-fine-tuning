@@ -1,0 +1,23 @@
+AI Engineer (m/f/d) - TPE Consulting Company Limited
+
+Company: TPE Consulting
+Location: Germany (Berlin, Munich, Frankfurt, Hamburg, or Remote/Hybrid)
+Salary: €90,000 - €150,000+ annually, plus bonus
+Employment Type: Full-time
+Experience Level: Entry-level / Career starter
+
+Key Responsibilities:
+- Develop, train, and deploy machine learning / deep learning models
+- Build scalable AI pipelines for production environments
+- Work with large datasets for training and model optimization
+- Integrate LLMs into real-world applications
+- Collaborate across Data Science, Engineering, and Product teams
+- Enhance model performance and system reliability
+
+Required Skills:
+- Python programming
+- ML frameworks (TensorFlow, PyTorch)
+- Large Language Models / Generative AI experience (highly preferred)
+- Cloud platforms (AWS, GCP, Azure)
+- MLOps, Docker, Kubernetes (preferred)
+- Analytical and problem-solving abilities

@@ -1,0 +1,21 @@
+{
+  "title": "Junior AI Engineer",
+  "company": "top.legal",
+  "location": "Germany",
+  "work_model": "remote/hybrid",
+  "seniority": "junior",
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "LangChain",
+    "NLP",
+    "LLM fine-tuning",
+    "RAG",
+    "PEFT/QLoRA"
+  ],
+  "nice_to_have": [
+    "JavaScript"
+  ],
+  "salary": "",
+  "language": "English"
+}

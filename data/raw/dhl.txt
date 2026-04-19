@@ -1,0 +1,39 @@
+Associate Data Scientist AI (D/F/M)
+DHL Data & AI
+Bonn, Germany (Hybrid)
+Full-time, Entry-level/Graduate
+English required
+
+About the Company:
+DHL is a global logistics leader. The Data & AI team builds AI solutions across the organization.
+
+About the Role:
+Support AI adoption across business units, build RAG/agent systems, develop evaluation frameworks.
+
+Key Responsibilities:
+- Support stakeholders in AI adoption, explain features, gather feedback
+- Shape data and retrieval layers: data loaders, embeddings, caching, grounding
+- Develop scalable solution architectures
+- Prepare, test, release AI features, monitor performance
+- Conduct evaluations, safety checks, guardrails
+- Create demos and enablement materials (UIs, notebooks, docs)
+- Assist in ideation workshops and prototypes
+- Collaborate with Data Engineers, Platform Engineers, Product Managers
+
+Required Skills:
+- University degree in Math, Statistics, Physics, CS, or quantitative field
+- Python or R, solid SQL skills
+- Backend services/pipeline building, ML/LLM component integration
+- RAG, agent orchestration, AI knowledge
+- Machine learning fundamentals, statistical analysis
+- Complex dataset analysis, AI model development
+- Corporate experience (internships or student work)
+- Excellent English communication and presentation
+- Curiosity, growth mindset, problem-solving
+
+Nice-to-Have:
+- Java
+- Business/management studies
+- Version control, testing, code reviews
+
+Language: Excellent English required

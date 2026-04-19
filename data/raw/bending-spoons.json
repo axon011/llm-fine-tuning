@@ -1,0 +1,19 @@
+{
+  "title": "Graduate AI Software Engineer",
+  "company": "Bending Spoons",
+  "location": "Berlin / Remote",
+  "work_model": "remote",
+  "seniority": "entry-level",
+  "required_skills": [
+    "Python",
+    "software engineering",
+    "problem-solving",
+    "AI/ML fundamentals"
+  ],
+  "nice_to_have": [
+    "Rust",
+    "mobile development"
+  ],
+  "salary": "",
+  "language": "English"
+}

@@ -1,0 +1,30 @@
+AI Engineer for OSS AI Startup
+Rhesis AI GmbH
+Berlin, Germany (Hybrid) | Offices in Berlin and Potsdam (Griebnitzsee)
+Full-time Employee, Fixed one-year contract (with likely extension)
+Start Date: June 15 or July 1
+
+About the Role:
+AI Engineer position at Rhesis AI, an open-source AI startup. The role involves overseeing and executing the design, development, fine-tuning, and deployment of large language models alongside implementing best practices for LLM operations.
+
+Key Responsibilities:
+- Design, develop, fine-tune, and deploy large language models
+- Implement best practices for LLM operations
+- Develop LLM-enabled data pipelines
+- Stay current with AI/ML advancements
+- Contribute to data engineering and general software engineering as needed
+
+Required Skills:
+- Hands-on experience with Large Language Models and Generative AI
+- Python programming proficiency with ML frameworks (JAX, PyTorch, TensorFlow, HuggingFace Transformers, Scikit-Learn)
+- MLOps expertise and ML fundamentals knowledge
+- Production-ready code development experience
+- Natural Language Processing background
+
+Nice-to-Have:
+- State-of-the-art ML model research and development experience
+- Deep learning model fine-tuning for deployment
+- Cloud-native solutions (GCP, Azure, AWS)
+- Strong system design and problem-solving abilities
+
+Language: English

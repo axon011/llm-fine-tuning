@@ -1,0 +1,35 @@
+AI Engineer (m/f/d) / Fullstack AI Engineer
+IntegrityNext
+Munich, Germany (flexible remote work within Germany)
+Full-time
+Experienced (Management level listed, but no specific years stated)
+
+About the Company:
+IntegrityNext is a supply chain sustainability management SaaS platform backed by EQT. Helps enterprises manage supplier compliance across ESG (Environmental, Social, Governance) criteria. Serves major enterprise clients.
+
+About the Role:
+Build AI-powered features for supply chain sustainability platform. Design agentic workflows, RAG pipelines, and evaluation systems.
+
+Key Responsibilities:
+- Build production AI systems using LangChain/LangGraph frameworks
+- Design agentic workflows with multi-step agent patterns
+- Develop RAG pipelines and retrieval systems for unstructured data
+- Build AI quality evaluation and testing frameworks
+- Develop backend APIs and integrations
+- Work with AWS services (Bedrock AgentCore, OpenSearch, S3, DynamoDB)
+
+Required Skills:
+- Python (strong proficiency)
+- LangChain/LangGraph frameworks
+- AWS services (Bedrock AgentCore, OpenSearch, S3, DynamoDB)
+- RAG, agentic systems, and multi-step agent patterns
+- Unstructured data pipelines and retrieval systems
+- AI quality evaluation and testing frameworks
+- Backend API development and integrations
+
+Nice-to-Have:
+- React/frontend prototyping
+- Semantic layers
+- AI observability tools
+
+Language: English required, comfortable working in international environments

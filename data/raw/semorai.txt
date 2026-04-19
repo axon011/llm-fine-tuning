@@ -1,0 +1,28 @@
+Software Engineer – AI Engineer - Semorai GmbH
+Company: Semorai GmbH
+
+Location: Heilbronn or Munich, Germany
+Employment Type: Full-time
+Experience Level: Entry-level (Berufseinstieg)
+
+Key Responsibilities:
+- Develop and optimize LLM-based systems and multi-agent architectures
+- Build agent communication infrastructure and orchestration
+- Integrate knowledge graphs, vector stores (Neo4j, Qdrant), and databases
+- Create gRPC/REST APIs and interfaces
+- Manage deployment, scalability, and performance optimization
+- Collaborate cross-functionally with product and data science teams
+
+Required Skills:
+- Python for AI/ML applications and LLM work
+- Docker and containerization expertise
+- Software architecture and microservices knowledge
+- Data management and vector store experience
+- Analytical thinking and quick comprehension
+- Problem-solving in fast-paced environments
+
+Qualifications:
+- Degree in Computer Science, Data Science, Machine Learning, or related field
+- Master's degree preferred; Bachelor's acceptable with relevant experience
+
+Environment: Startup spirit, hybrid work, flat hierarchies, professional development opportunities.

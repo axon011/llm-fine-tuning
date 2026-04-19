@@ -1,0 +1,33 @@
+Founding Engineer (Full-Stack · AI/ML)
+Sokra
+Berlin, Germany (Hybrid)
+Full-time, Permanent
+Early career (graduated within ~5 years)
+
+About the Company:
+Sokra develops an AI-powered adaptive learning platform already being tested by 50+ schools across Germany. EXIST-backed startup affiliated with Humboldt University Berlin. Three founding members seeking their inaugural technical hire.
+
+About the Role:
+Shape technical product strategy and architecture decisions alongside founders. Engineer an AI-powered learning system leveraging LLM agents, RAG pipelines, and adaptive content delivery. Build full-stack platform and gather feedback from schools and educators.
+
+Key Responsibilities:
+- Shape technical product strategy and architecture decisions alongside founders
+- Engineer an AI-powered learning system using LLM agents, RAG pipelines, adaptive content delivery
+- Build full-stack platform using Next.js, TypeScript, Python, WebSockets
+- Gather and implement feedback from schools and educators
+- Participate in technical strategy, hiring, and company direction decisions
+
+Required Skills:
+- Strong full-stack experience with TypeScript/React/Next.js and Python
+- AI/ML expertise or demonstrated interest in large language models and retrieval-augmented generation
+- Product shipping experience demonstrating 0→1 builder capabilities
+- Computer Science degree or equivalent (graduated within ~5 years)
+- Based in Germany or willing to relocate to Berlin
+- English fluency; German beneficial but optional
+
+Compensation:
+- Equity: 0.5-2% with four-year vesting schedule
+- Funding: EXIST-program runway (~12 months) plus upcoming angel round
+- Work: Hybrid Berlin setup with flexible scheduling
+
+Application: 3-day response commitment; initial conversation is casual 20-minute call.

@@ -1,0 +1,26 @@
+AI Full Stack Engineer
+Almedia
+Berlin, Germany
+Full-time
+Entry-level (Berufseinstieg)
+
+About the Company:
+Almedia is a Berlin-based company building AI-powered products.
+
+About the Role:
+Full stack AI engineer building AI-integrated applications with modern frontend and backend technologies.
+
+Key Responsibilities:
+- Build AI-integrated full-stack applications
+- Work across frontend, backend, and databases
+- Integrate AI APIs into products
+- Communicate clearly with non-technical stakeholders
+
+Required Skills:
+- Production experience with Node.js or Python
+- Experience integrating and working with AI APIs
+- Full stack development (frontend, backend, databases)
+- Good prompting skills and ability to use current AI tools
+- Clear communication with non-technical stakeholders
+
+Language: English (communication with stakeholders)

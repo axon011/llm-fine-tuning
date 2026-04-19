@@ -1,0 +1,33 @@
+AI / LLM Application Engineer (m/f/d)
+OMMAX
+Munich, Germany (Hybrid — offices in Munich, London, Amsterdam, Milan, Berlin)
+Full-time, Permanent
+Entry-level (Berufseinstieg)
+
+About the Company:
+OMMAX is a digital strategy and technology consultancy helping companies unlock value through AI, data, and digital transformation. Works with enterprise clients across Europe.
+
+About the Role:
+Build and deploy AI-powered applications for enterprise clients. Design scalable LLM-based solutions including RAG architectures, agentic workflows, and AI-integrated frontend experiences.
+
+Key Responsibilities:
+- Build and deploy AI-powered applications for enterprise clients
+- Design and implement RAG architectures and agentic workflows
+- Develop scalable LLM-based solutions with production deployment
+- Build frontend experiences with React/Next.js integrated with AI backends
+- Deploy and manage cloud infrastructure for AI applications
+- Implement enterprise security and IAM for AI systems
+
+Required Skills:
+- Python (production-level experience)
+- LLM frameworks (LangChain, LangGraph, LlamaIndex)
+- RAG architectures
+- Cloud deployment (AWS, Azure, GCP)
+- Docker and CI/CD
+- React/Next.js
+- Enterprise security and IAM
+- Agentic/workflow system design
+
+Language: Fluent English required; additional local language skills a plus
+
+Benefits: Hybrid work across European offices, enterprise client exposure, AI-focused team

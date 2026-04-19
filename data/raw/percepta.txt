@@ -1,0 +1,31 @@
+Applied AI Engineer - Europe
+Percepta
+London, European Union (on-site)
+Full-time
+Salary: GBP 185,000 - 230,000 annually + equity
+
+About the Role:
+Applied AI Engineer at Percepta, transforming critical institutions with applied AI. The role focuses on designing and deploying production-grade AI systems, shaping AI vision through stakeholder collaboration, identifying high-impact use cases, and shipping real products.
+
+Key Responsibilities:
+- Shape the AI vision through stakeholder collaboration
+- Identify high-impact use cases for AI deployment
+- Ship real products with actual users and data
+- Contribute lessons learned to Percepta's Mosaic product
+- Design and deploy production-grade AI systems
+
+Requirements:
+- Strong passion for AI-driven business transformation
+- Collaborative mindset and generative problem-solving
+- Extreme ownership and self-directed execution
+- Rapid building and shipping in unstructured environments
+- Customer-centric approach with direct end-user iteration
+
+Bonus Skills:
+- Hands-on experience with LLM tooling (LangGraph, Mastra, Agents SDK)
+- Production LLM-powered systems (RAG pipelines, multi-step agents, human-in-the-loop)
+- Python/TypeScript proficiency
+- Cloud deployment expertise (AWS/GCP/Azure) and DevOps tooling
+- Startup or founding engineer background
+
+Language: English

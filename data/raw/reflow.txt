@@ -1,0 +1,33 @@
+AI Engineer
+Reflow
+Berlin, Germany (Remote-friendly — "Where you live does not matter")
+Full-time (flexible on part-time)
+Entry-level
+
+About the Company:
+Reflow is a Berlin-based startup building AI-powered solutions. Remote-friendly team.
+
+About the Role:
+Build AI-powered features using LLMs, agentic architectures, and prompt engineering. Rapid prototyping and shipping AI-integrated applications.
+
+Key Responsibilities:
+- Design and build AI-powered features using LLMs and agentic architectures
+- Prompt engineering and context optimization
+- AI pipeline design and implementation
+- Rapid prototyping and shipping
+
+Required Skills:
+- Python programming
+- LLMs and agentic architectures
+- Prompt engineering and context optimization
+- AI pipeline design
+- Rapid prototyping abilities
+
+Nice-to-Have:
+- LangChain, OpenAI API experience
+- Desktop/web app AI integration
+- Automation systems background
+
+Compensation: Competitive pay based on market and location (not specified)
+
+Language: English (JD written in English)

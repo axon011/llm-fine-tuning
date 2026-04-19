@@ -1,0 +1,33 @@
+AI Engineer (all genders)
+ellamind
+Berlin (3+ days/week on-site) or Bremen HQ
+Full-time
+Entry-level (Berufseinstieg)
+
+About the Company:
+ellamind builds evaluation-first AI infrastructure for testing LLM applications at scale.
+
+About the Role:
+Python engineer building evaluation-first AI infrastructure. Design evaluation systems, integrate LLM providers, create testing frameworks at scale.
+
+Key Responsibilities:
+- Design and build AI evaluation methodology and systems
+- Integrate LLM APIs (OpenAI, Anthropic) into production infrastructure
+- Build testing frameworks for LLM applications at scale
+- API design, data modeling, async processing
+- Software engineering fundamentals for production AI
+
+Required Skills:
+- Python engineering for production AI systems
+- Hands-on LLM API experience (OpenAI, Anthropic)
+- API design, data modeling, async processing
+- AI evaluation methodology design
+- Software engineering fundamentals
+
+Nice-to-Have:
+- Demonstrated excellence over credential checking
+- Diverse backgrounds welcome
+
+Compensation: 60,000-100,000 EUR annually
+
+Language: English B2 minimum (required), German nice-to-have
