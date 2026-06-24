@@ -2,3 +2,13 @@ output/
 __pycache__/
 *.pyc
 wandb/
+
+# Large datasets & training outputs — never commit to git
+notebooks/kaggle-output/
+notebooks/kaggle-push/
+*.csv
+*.csv.zip
+*.zip
+*.pt
+*.pth
+*.safetensors
