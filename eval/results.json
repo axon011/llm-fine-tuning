@@ -30,9 +30,9 @@
       "salary": 0.0,
       "language": 1.0,
       "required_skills": {
-        "precision": 0.14285714285714285,
+        "precision": 0.125,
         "recall": 0.16666666666666666,
-        "f1": 0.15384615384615383
+        "f1": 0.14285714285714288
       },
       "nice_to_have": {
         "precision": 0.0,
@@ -49,20 +49,20 @@
       "salary": 0.0,
       "language": 1.0,
       "required_skills": {
-        "precision": 0.6,
+        "precision": 0.5,
         "recall": 0.42857142857142855,
-        "f1": 0.5
+        "f1": 0.4615384615384615
       },
       "nice_to_have": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.5,
+        "recall": 0.25,
+        "f1": 0.3333333333333333
       }
     },
     {
       "title": 1.0,
       "company": 1.0,
-      "location": 0.5,
+      "location": 0.0,
       "work_model": 0.0,
       "seniority": 1.0,
       "salary": 1.0,
@@ -87,9 +87,9 @@
       "salary": 0.0,
       "language": 1.0,
       "required_skills": {
-        "precision": 0.5,
-        "recall": 0.4,
-        "f1": 0.4444444444444445
+        "precision": 0.25,
+        "recall": 0.2,
+        "f1": 0.22222222222222224
       },
       "nice_to_have": {
         "precision": 0.0,
@@ -130,9 +130,9 @@
         "f1": 0.6666666666666666
       },
       "nice_to_have": {
-        "precision": 1.0,
+        "precision": 0.8,
         "recall": 1.0,
-        "f1": 1.0
+        "f1": 0.888888888888889
       }
     },
     {
@@ -144,14 +144,14 @@
       "salary": 0.0,
       "language": 1.0,
       "required_skills": {
-        "precision": 0.25,
+        "precision": 0.3333333333333333,
         "recall": 0.14285714285714285,
-        "f1": 0.18181818181818182
+        "f1": 0.2
       },
       "nice_to_have": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666
       }
     },
     {
@@ -211,7 +211,7 @@
         "salary": "",
         "language": "English"
       },
-      "raw_output": "{\n  \"title\": \"AI Agent Platform Developer\",\n  \"company\": \"PUNKU.AI\",\n  \"location\": \"Cottbus, Germany\",\n  \"work_model\": \"full-time\",\n  \"seniority\": \"entry-level\",\n  \"required_skills\": [\n    \"Python\",\n    \"TypeScript\"\n  ],\n  \"nice_to_have\": [\n    \"LangChain\",\n    \"Entrepreneurial mindset\"\n  ],\n  \"salary\": \"not specified\",\n  \"language\": \"English\"\n}",
+      "raw_output": "{\n  \"title\": \"AI Agent Platform Developer\",\n  \"company\": \"PUNKU.AI\",\n  \"location\": \"Cottbus, Germany\",\n  \"work_model\": \"full-time\",\n  \"seniority\": \"entry-level\",\n  \"required_skills\": [\n    \"Python\",\n    \"TypeScript\"\n  ],\n  \"nice_to_have\": [\n    \"LangChain\"\n  ],\n  \"salary\": \"not specified\",\n  \"language\": \"English\"\n}",
       "parsed": {
         "title": "AI Agent Platform Developer",
         "company": "PUNKU.AI",
@@ -223,8 +223,7 @@
           "TypeScript"
         ],
         "nice_to_have": [
-          "LangChain",
-          "Entrepreneurial mindset"
+          "LangChain"
         ],
         "salary": "not specified",
         "language": "English"
@@ -272,7 +271,7 @@
         "salary": "",
         "language": "English"
       },
-      "raw_output": "{\n  \"title\": \"AI / LLM Application Engineer\",\n  \"company\": \"OMMAX\",\n  \"location\": \"Munich, Germany\",\n  \"work_model\": \"hybrid\",\n  \"seniority\": \"mid-senior\",\n  \"required_skills\": [\n    \"Python\",\n    \"LLM frameworks\",\n    \"RAG architectures\",\n    \"Agentic workflows\",\n    \"React/Next.js integration\",\n    \"Docker and CI/CD\",\n    \"Cloud deployment\"\n  ],\n  \"nice_to_have\": [\n    \"Agentic workflow system design\",\n    \"RAG architecture design\"\n  ],\n  \"salary\": \"$70,000 - $120,000\",\n  \"language\": \"English\"",
+      "raw_output": "{\n  \"title\": \"AI / LLM Application Engineer\",\n  \"company\": \"OMMAX\",\n  \"location\": \"Munich, Germany\",\n  \"work_model\": \"hybrid\",\n  \"seniority\": \"mid-senior\",\n  \"required_skills\": [\n    \"Python\",\n    \"LLM frameworks\",\n    \"RAG architectures\",\n    \"Agentic workflows\",\n    \"Cloud deployment\",\n    \"Docker and CI/CD\",\n    \"React/Next.js\",\n    \"Enterprise security and IAM\"\n  ],\n  \"nice_to_have\": [\"Agentic workflows\", \"RAG architectures\"],\n  \"salary\": \"$70,000 - $125,000 per year\",\n  \"language\": \"English",
       "parsed": {
         "title": "AI / LLM Application Engineer",
         "company": "OMMAX",
@@ -284,15 +283,16 @@
           "LLM frameworks",
           "RAG architectures",
           "Agentic workflows",
-          "React/Next.js integration",
+          "Cloud deployment",
           "Docker and CI/CD",
-          "Cloud deployment"
+          "React/Next.js",
+          "Enterprise security and IAM"
         ],
         "nice_to_have": [
-          "Agentic workflow system design",
-          "RAG architecture design"
+          "Agentic workflows",
+          "RAG architectures"
         ],
-        "salary": "$70,000 - $120,000",
+        "salary": "$70,000 - $125,000 per year",
         "language": "English"
       },
       "scores": {
@@ -304,9 +304,9 @@
         "salary": 0.0,
         "language": 1.0,
         "required_skills": {
-          "precision": 0.14285714285714285,
+          "precision": 0.125,
           "recall": 0.16666666666666666,
-          "f1": 0.15384615384615383
+          "f1": 0.14285714285714288
         },
         "nice_to_have": {
           "precision": 0.0,
@@ -341,7 +341,7 @@
         "salary": "",
         "language": "English"
       },
-      "raw_output": "{\n  \"title\": \"Agentic AI Software Engineer\",\n  \"company\": \"Reply\",\n  \"location\": \"Munich, Germany\",\n  \"work_model\": \"hybrid\",\n  \"seniority\": \"entry-level\",\n  \"required_skills\": [\n    \"Python\",\n    \"Java\",\n    \"Rust\",\n    \"Spring Boot\",\n    \"FastAPI\"\n  ],\n  \"nice_to_have\": [\n    \"SQL\",\n    \"NoSQL databases\",\n    \"Cloud platforms\"\n  ],\n  \"salary\": \"$50k - $70k\",\n  \"language\": \"English\"\n}",
+      "raw_output": "{\n    \"title\": \"Agentic AI Software Engineer\",\n    \"company\": \"Reply\",\n    \"location\": \"Munich, Germany\",\n    \"work_model\": \"hybrid\",\n    \"seniority\": \"entry-level\",\n    \"required_skills\": [\n        \"Python\",\n        \"Java\",\n        \"Rust\",\n        \"Spring Boot\",\n        \"FastAPI\",\n        \"NoSQL\"\n    ],\n    \"nice_to_have\": [\n        \"SQL\",\n        \"Kubernetes\"\n    ],\n    \"salary\": \"N/A\",\n    \"language\": \"English\"\n}",
       "parsed": {
         "title": "Agentic AI Software Engineer",
         "company": "Reply",
@@ -353,14 +353,14 @@
           "Java",
           "Rust",
           "Spring Boot",
-          "FastAPI"
+          "FastAPI",
+          "NoSQL"
         ],
         "nice_to_have": [
           "SQL",
-          "NoSQL databases",
-          "Cloud platforms"
+          "Kubernetes"
         ],
-        "salary": "$50k - $70k",
+        "salary": "N/A",
         "language": "English"
       },
       "scores": {
@@ -372,14 +372,14 @@
         "salary": 0.0,
         "language": 1.0,
         "required_skills": {
-          "precision": 0.6,
+          "precision": 0.5,
           "recall": 0.42857142857142855,
-          "f1": 0.5
+          "f1": 0.4615384615384615
         },
         "nice_to_have": {
-          "precision": 0.0,
-          "recall": 0.0,
-          "f1": 0.0
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1": 0.3333333333333333
         }
       }
     },
@@ -404,22 +404,23 @@
         "salary": "60,000-100,000 EUR",
         "language": "English"
       },
-      "raw_output": "{\n  \"title\": \"AI Engineer\",\n  \"company\": \"ellamind\",\n  \"location\": \"Berlin\",\n  \"work_model\": \"full-time\",\n  \"seniority\": \"entry-level\",\n  \"required_skills\": [\n    \"Python\",\n    \"LLM integration\",\n    \"API design\",\n    \"async processing\"\n  ],\n  \"nice_to_have\": [\n    \"Diverse backgrounds\",\n    \"Hands-on LLM API experience\"\n  ],\n  \"salary\": \"60,000-100,000 EUR\",\n  \"language\": \"English\"\n}",
+      "raw_output": "{\n  \"title\": \"AI Engineer\",\n  \"company\": \"ellamind\",\n  \"location\": \"Berlin (3+ days/week on-site)\",\n  \"work_model\": \"full-time\",\n  \"seniority\": \"entry-level\",\n  \"required_skills\": [\n    \"python\",\n    \"evaluation-first AI\",\n    \"LLM integration\",\n    \"testing frameworks\"\n  ],\n  \"nice_to_have\": [\n    \"demos\",\n    \"async processing\",\n    \"data modeling\"\n  ],\n  \"salary\": \"60,000-100,000 EUR\",\n  \"language\": \"English\"\n}",
       "parsed": {
         "title": "AI Engineer",
         "company": "ellamind",
-        "location": "Berlin",
+        "location": "Berlin (3+ days/week on-site)",
         "work_model": "full-time",
         "seniority": "entry-level",
         "required_skills": [
-          "Python",
+          "python",
+          "evaluation-first AI",
           "LLM integration",
-          "API design",
-          "async processing"
+          "testing frameworks"
         ],
         "nice_to_have": [
-          "Diverse backgrounds",
-          "Hands-on LLM API experience"
+          "demos",
+          "async processing",
+          "data modeling"
         ],
         "salary": "60,000-100,000 EUR",
         "language": "English"
@@ -427,7 +428,7 @@
       "scores": {
         "title": 1.0,
         "company": 1.0,
-        "location": 0.5,
+        "location": 0.0,
         "work_model": 0.0,
         "seniority": 1.0,
         "salary": 1.0,
@@ -466,7 +467,7 @@
         "salary": "",
         "language": "English"
       },
-      "raw_output": "{\n  \"title\": \"AI Engineer\",\n  \"company\": \"Flank\",\n  \"location\": \"Berlin, Germany\",\n  \"work_model\": \"full-time\",\n  \"seniority\": \"assistant\",\n  \"required_skills\": [\n    \"Python\",\n    \"LNGs\",\n    \"Agentic AI\",\n    \"RAG\"\n  ],\n  \"nice_to_have\": [\n    \"LNGs\",\n    \"RAG\"\n  ],\n  \"salary\": \"50K+\",\n  \"language\": \"English\"\n}",
+      "raw_output": "{\n  \"title\": \"AI Engineer\",\n  \"company\": \"Flank\",\n  \"location\": \"Berlin, Germany\",\n  \"work_model\": \"full-time\",\n  \"seniority\": \"assistant\",\n  \"required_skills\": [\n    \"Python\",\n    \"LLM frameworks\",\n    \"Agentic AI\",\n    \"RAG and retrieval pipelines\"\n  ],\n  \"nice_to_have\": [],\n  \"salary\": \"50K+\",\n  \"language\": \"English\"\n}",
       "parsed": {
         "title": "AI Engineer",
         "company": "Flank",
@@ -475,14 +476,11 @@
         "seniority": "assistant",
         "required_skills": [
           "Python",
-          "LNGs",
+          "LLM frameworks",
           "Agentic AI",
-          "RAG"
+          "RAG and retrieval pipelines"
         ],
-        "nice_to_have": [
-          "LNGs",
-          "RAG"
-        ],
+        "nice_to_have": [],
         "salary": "50K+",
         "language": "English"
       },
@@ -495,9 +493,9 @@
         "salary": 0.0,
         "language": 1.0,
         "required_skills": {
-          "precision": 0.5,
-          "recall": 0.4,
-          "f1": 0.4444444444444445
+          "precision": 0.25,
+          "recall": 0.2,
+          "f1": 0.22222222222222224
         },
         "nice_to_have": {
           "precision": 0.0,
@@ -527,23 +525,26 @@
         "salary": "",
         "language": "English"
       },
-      "raw_output": "{\n  \"title\": \"AI Engineer\",\n  \"company\": \"Knowunity\",\n  \"location\": \"Berlin, Germany\",\n  \"work_model\": \"on-site\",\n  \"seniority\": \"entry-level\",\n  \"required_skills\": [\n    \"LLM experience\",\n    \"backend languages\",\n    \"English fluency\"\n  ],\n  \"nice_to_have\": [\n    \"German\",\n    \"Laravel\"\n  ],\n  \"salary\": \"competitive equity\",\n  \"language\": \"English\"\n}",
+      "raw_output": "{\n  \"title\": \"AI Engineer\",\n  \"company\": \"KnowUnity\",\n  \"location\": \"Berlin, Germany\",\n  \"work_model\": \"on-site\",\n  \"seniority\": \"entry-level\",\n  \"required_skills\": [\n    \"LLM experience\",\n    \"prompt engineering\",\n    \"backend languages\",\n    \"English fluency\"\n  ],\n  \"nice_to_have\": [\n    \"German\",\n    \"Go\",\n    \"Python\",\n    \"TypeScript\"\n  ],\n  \"salary\": \"competitive\",\n  \"language\": \"English\"\n}",
       "parsed": {
         "title": "AI Engineer",
-        "company": "Knowunity",
+        "company": "KnowUnity",
         "location": "Berlin, Germany",
         "work_model": "on-site",
         "seniority": "entry-level",
         "required_skills": [
           "LLM experience",
+          "prompt engineering",
           "backend languages",
           "English fluency"
         ],
         "nice_to_have": [
           "German",
-          "Laravel"
+          "Go",
+          "Python",
+          "TypeScript"
         ],
-        "salary": "competitive equity",
+        "salary": "competitive",
         "language": "English"
       },
       "scores": {
@@ -591,7 +592,7 @@
         "salary": "55,000-70,000 EUR",
         "language": "German"
       },
-      "raw_output": "{\n  \"title\": \"AI Engineer\",\n  \"company\": \"Logicc\",\n  \"location\": \"Hamburg, Germany\",\n  \"work_model\": \"Remote\",\n  \"seniority\": \"mid-level\",\n  \"required_skills\": [\n    \"Python\",\n    \"LLM integration\",\n    \"RAG\",\n    \"Tool use\",\n    \"Evals\",\n    \"agentic systems\"\n  ],\n  \"nice_to_have\": [\n    \"C#\",\n    \"React\",\n    \"Next.js\",\n    \"Tailwind\"\n  ],\n  \"salary\": \"\u20ac55,000 - \u20ac70,000\",\n  \"language\": \"English\"\n}",
+      "raw_output": "{\n  \"title\": \"AI Engineer\",\n  \"company\": \"Logicc\",\n  \"location\": \"Hamburg, Germany\",\n  \"work_model\": \"Remote\",\n  \"seniority\": \"mid-level\",\n  \"required_skills\": [\n    \"Python\",\n    \"LLM integration\",\n    \"RAG\",\n    \"Tool use\",\n    \"Evals\",\n    \"agentic systems\"\n  ],\n  \"nice_to_have\": [\n    \"C#\",\n    \"React\",\n    \"Next.js\",\n    \"Tailwind\",\n    \"Wellpass\"\n  ],\n  \"salary\": \"\u20ac55,000 - \u20ac70,000\",\n  \"language\": \"English\"\n}",
       "parsed": {
         "title": "AI Engineer",
         "company": "Logicc",
@@ -610,7 +611,8 @@
           "C#",
           "React",
           "Next.js",
-          "Tailwind"
+          "Tailwind",
+          "Wellpass"
         ],
         "salary": "\u20ac55,000 - \u20ac70,000",
         "language": "English"
@@ -629,9 +631,9 @@
           "f1": 0.6666666666666666
         },
         "nice_to_have": {
-          "precision": 1.0,
+          "precision": 0.8,
           "recall": 1.0,
-          "f1": 1.0
+          "f1": 0.888888888888889
         }
       }
     },
@@ -660,7 +662,7 @@
         "salary": "75,000-85,000 EUR",
         "language": "English"
       },
-      "raw_output": "{\n  \"title\": \"Applied AI Engineer\",\n  \"company\": \"MAIA\",\n  \"location\": \"Leipzig, Germany\",\n  \"work_model\": \"remote-first\",\n  \"seniority\": \"mid-level\",\n  \"required_skills\": [\n    \"RAG\",\n    \"LLM\",\n    \"AI\",\n    \"backend\"\n  ],\n  \"nice_to_have\": [\n    \"SQL\",\n    \"Grafana\",\n    \"PostHog\"\n  ],\n  \"salary\": \"\u20ac75,000 - \u20ac85,000\",\n  \"language\": \"English\"\n}",
+      "raw_output": "{\n  \"title\": \"Applied AI Engineer\",\n  \"company\": \"MAIA\",\n  \"location\": \"Leipzig, Germany\",\n  \"work_model\": \"remote-first\",\n  \"seniority\": \"mid-level\",\n  \"required_skills\": [\n    \"RAG\",\n    \"LLM\",\n    \"AI\"\n  ],\n  \"nice_to_have\": [\n    \"Supabase\",\n    \"Document Analysis\",\n    \"Automated LLM Evaluation\"\n  ],\n  \"salary\": \"\u20ac75,000 - \u20ac85,000\",\n  \"language\": \"English\"\n}",
       "parsed": {
         "title": "Applied AI Engineer",
         "company": "MAIA",
@@ -670,13 +672,12 @@
         "required_skills": [
           "RAG",
           "LLM",
-          "AI",
-          "backend"
+          "AI"
         ],
         "nice_to_have": [
-          "SQL",
-          "Grafana",
-          "PostHog"
+          "Supabase",
+          "Document Analysis",
+          "Automated LLM Evaluation"
         ],
         "salary": "\u20ac75,000 - \u20ac85,000",
         "language": "English"
@@ -690,14 +691,14 @@
         "salary": 0.0,
         "language": 1.0,
         "required_skills": {
-          "precision": 0.25,
+          "precision": 0.3333333333333333,
           "recall": 0.14285714285714285,
-          "f1": 0.18181818181818182
+          "f1": 0.2
         },
         "nice_to_have": {
-          "precision": 0.0,
-          "recall": 0.0,
-          "f1": 0.0
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "f1": 0.6666666666666666
         }
       }
     },
@@ -725,7 +726,7 @@
         "salary": "205,000-220,000 EUR",
         "language": "German (C1) + English"
       },
-      "raw_output": "{\n  \"title\": \"Forward Deployed Engineer\",\n  \"company\": \"Anthropic\",\n  \"location\": \"Munich, Germany\",\n  \"work_model\": \"hybrid\",\n  \"seniority\": \"mid-level\",\n  \"required_skills\": [\n    \"Python\",\n    \"LLM\",\n    \"agent development\",\n    \"prompt engineering\"\n  ],\n  \"nice_to_have\": [\"C++\", \"Java\", \"Go\"],\n  \"salary\": \"205,000 - 220,000 EUR\",\n  \"language\": \"English\"\n}",
+      "raw_output": "{\n  \"title\": \"Forward Deployed Engineer\",\n  \"company\": \"Anthropic\",\n  \"location\": \"Munich, Germany\",\n  \"work_model\": \"hybrid\",\n  \"seniority\": \"mid-level\",\n  \"required_skills\": [\n    \"Python\",\n    \"LLM\",\n    \"agent development\",\n    \"prompt engineering\"\n  ],\n  \"nice_to_have\": [\"Java\", \"C++\"],\n  \"salary\": \"$205,000 - $220,000 EUR\",\n  \"language\": \"English\"\n}",
       "parsed": {
         "title": "Forward Deployed Engineer",
         "company": "Anthropic",
@@ -739,11 +740,10 @@
           "prompt engineering"
         ],
         "nice_to_have": [
-          "C++",
           "Java",
-          "Go"
+          "C++"
         ],
-        "salary": "205,000 - 220,000 EUR",
+        "salary": "$205,000 - $220,000 EUR",
         "language": "English"
       },
       "scores": {
@@ -786,7 +786,7 @@
         "salary": "",
         "language": "English"
       },
-      "raw_output": "{\n    \"title\": \"ML Engineer\",\n    \"company\": \"fastino.ai\",\n    \"location\": \"Palo Alto, California\",\n    \"work_model\": \"hybrid\",\n    \"seniority\": \"full-time\",\n    \"required_skills\": [\n        \"Python\",\n        \"LLMs\",\n        \"Small Language Models\"\n    ],\n    \"nice_to_have\": [\"vector databases\", \"Kubernetes\"],\n    \"salary\": \"open\",\n    \"language\": \"English\"\n}",
+      "raw_output": "{\n  \"title\": \"ML Engineer\",\n  \"company\": \"fastino.ai\",\n  \"location\": \"Palo Alto, California\",\n  \"work_model\": \"hybrid\",\n  \"seniority\": \"full-time\",\n  \"required_skills\": [\n    \"Python\",\n    \"LLMs\",\n    \"Small Language Models\"\n  ],\n  \"nice_to_have\": [\"vector databases\", \"Kubernetes\"],\n  \"salary\": \"open\",\n  \"language\": \"English\"\n}",
       "parsed": {
         "title": "ML Engineer",
         "company": "fastino.ai",
@@ -829,20 +829,43 @@
   "aggregate": {
     "title": 0.7,
     "company": 0.95,
-    "location": 0.75,
+    "location": 0.7,
     "work_model": 0.45,
     "seniority": 0.5,
     "salary": 0.1,
     "language": 0.85,
     "required_skills": {
-      "precision": 0.43261904761904757,
-      "recall": 0.3221428571428572,
-      "f1": 0.3641219891219891
+      "precision": 0.4041666666666667,
+      "recall": 0.30214285714285716,
+      "f1": 0.33877289377289377
     },
     "nice_to_have": {
-      "precision": 0.1,
-      "recall": 0.1,
-      "f1": 0.1
+      "precision": 0.19666666666666668,
+      "recall": 0.19166666666666665,
+      "f1": 0.18888888888888888
+    }
+  },
+  "base_baseline": {
+    "json_valid": 3,
+    "json_invalid": 7,
+    "aggregate": {
+      "title": 0.6666666666666666,
+      "company": 1.0,
+      "location": 0.3333333333333333,
+      "work_model": 0.0,
+      "seniority": 0.16666666666666666,
+      "salary": 0.0,
+      "language": 0.0,
+      "required_skills": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "nice_to_have": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
     }
   }
 }

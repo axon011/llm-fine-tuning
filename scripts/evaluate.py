@@ -1,18 +1,22 @@
 """
-Evaluate fine-tuned model vs base model on held-out JDs.
+Evaluate the fine-tuned model (and optionally the base model) on held-out JDs.
 
-Compares:
+Measures:
 1. JSON validity (can the output be parsed?)
 2. Field accuracy (do extracted fields match labels?)
 3. Skills extraction (precision/recall on skill lists)
 
+By default it also evaluates the un-tuned base model and prints a side-by-side
+comparison so the effect of fine-tuning is visible. Pass --no-compare-base to skip.
+
 Usage:
-    python scripts/evaluate.py --adapter output/jd-extractor-lora
-    python scripts/evaluate.py --adapter output/jd-extractor-lora --test_file data/processed/test.jsonl
+    python scripts/evaluate.py --adapter output/jd-extractor-qwen-0.5b-v2
+    python scripts/evaluate.py --adapter output/jd-extractor-qwen-0.5b-v2 --no-compare-base
 """
 
 import argparse
 import json
+import os
 from pathlib import Path
 
 import torch
@@ -140,26 +144,8 @@ def evaluate_single(predicted: dict, expected: dict) -> dict:
     return scores
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--base_model", default="google/gemma-2-2b")
-    parser.add_argument("--adapter", default="output/jd-extractor-lora")
-    parser.add_argument("--test_file", default="data/processed/test.jsonl")
-    parser.add_argument("--output", default="eval/results.json")
-    args = parser.parse_args()
-
-    # Load test data
-    test_data = []
-    with open(args.test_file, encoding="utf-8") as f:
-        for line in f:
-            test_data.append(json.loads(line))
-
-    print(f"Loaded {len(test_data)} test examples")
-
-    # Evaluate fine-tuned model
-    print(f"\nLoading fine-tuned model ({args.adapter})...")
-    ft_model, ft_tokenizer = load_model(args.base_model, args.adapter)
-
+def run_eval(model, tokenizer, test_data: list, label: str) -> dict:
+    """Run the full eval loop for one model and return a results dict."""
     results = {
         "json_valid": 0,
         "json_invalid": 0,
@@ -171,7 +157,7 @@ def main():
         jd_text = example["input"]
         expected = json.loads(example["output"])
 
-        raw_output = generate(ft_model, ft_tokenizer, jd_text)
+        raw_output = generate(model, tokenizer, jd_text)
         parsed = parse_json_safe(raw_output)
 
         if parsed:
@@ -191,7 +177,7 @@ def main():
         })
 
         total = results["json_valid"] + results["json_invalid"]
-        print(f"  [{i+1}/{len(test_data)}] JSON valid: {results['json_valid']}/{total}")
+        print(f"  [{label}] [{i+1}/{len(test_data)}] JSON valid: {results['json_valid']}/{total}")
 
     # Aggregate metrics
     n = len(results["field_scores"])
@@ -207,25 +193,97 @@ def main():
             }
         results["aggregate"] = agg
 
-    # Save
+    return results
+
+
+def _metric_value(results: dict, field: str) -> float:
+    """Pull a single comparable number for a field (F1 for list fields)."""
+    agg = results.get("aggregate")
+    if not agg:
+        return 0.0
+    if field in LIST_FIELDS:
+        return agg[field]["f1"]
+    return agg[field]
+
+
+def print_comparison(base: dict | None, ft: dict):
+    """Print a base-vs-fine-tuned comparison table (or a single summary)."""
+    n_test = ft["json_valid"] + ft["json_invalid"]
+    print(f"\n{'='*60}")
+
+    if base is None:
+        print(f"JSON validity: {ft['json_valid']}/{n_test}")
+        if "aggregate" in ft:
+            print("\nField accuracy (fine-tuned):")
+            for field in STRING_FIELDS:
+                print(f"  {field:16s}: {_metric_value(ft, field):.2f}")
+            for field in LIST_FIELDS:
+                print(f"  {field:16s}: F1={_metric_value(ft, field):.2f}")
+        return
+
+    print(f"{'Metric':18s}{'Base':>8s}{'Fine-tuned':>12s}{'Delta':>8s}")
+    print(f"{'-'*46}")
+    print(f"{'JSON valid':18s}{base['json_valid']:>6d}/{n_test:<2d}"
+          f"{ft['json_valid']:>9d}/{n_test:<2d}"
+          f"{ft['json_valid'] - base['json_valid']:>+8d}")
+    for field in STRING_FIELDS + LIST_FIELDS:
+        b = _metric_value(base, field)
+        f = _metric_value(ft, field)
+        suffix = " (F1)" if field in LIST_FIELDS else ""
+        print(f"{field + suffix:18s}{b:>8.2f}{f:>12.2f}{f - b:>+8.2f}")
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--base_model", default="Qwen/Qwen2-0.5B-Instruct")
+    parser.add_argument("--adapter", default="output/jd-extractor-qwen-0.5b-v2")
+    parser.add_argument("--test_file", default="data/processed/test.jsonl")
+    parser.add_argument("--output", default="eval/results.json")
+    parser.add_argument("--compare-base", dest="compare_base", action="store_true", default=True,
+                        help="Also evaluate the un-tuned base model (default).")
+    parser.add_argument("--no-compare-base", dest="compare_base", action="store_false",
+                        help="Skip the base-model baseline.")
+    args = parser.parse_args()
+
+    # Load test data
+    test_data = []
+    with open(args.test_file, encoding="utf-8") as f:
+        for line in f:
+            test_data.append(json.loads(line))
+
+    print(f"Loaded {len(test_data)} test examples")
+
+    # Evaluate fine-tuned model
+    print(f"\nLoading fine-tuned model ({args.adapter})...")
+    ft_model, ft_tokenizer = load_model(args.base_model, args.adapter)
+    ft_results = run_eval(ft_model, ft_tokenizer, test_data, label="fine-tuned")
+
+    base_results = None
+    if args.compare_base:
+        # Free the fine-tuned model before loading the base model (4GB GPU).
+        del ft_model
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+
+        print(f"\nLoading base model ({args.base_model}) for baseline...")
+        base_model, base_tokenizer = load_model(args.base_model, adapter_path=None)
+        base_results = run_eval(base_model, base_tokenizer, test_data, label="base")
+
+    # Save (fine-tuned results, plus base baseline if computed)
+    out = dict(ft_results)
+    if base_results is not None:
+        out["base_baseline"] = {
+            "json_valid": base_results["json_valid"],
+            "json_invalid": base_results["json_invalid"],
+            "aggregate": base_results.get("aggregate"),
+        }
     os.makedirs(Path(args.output).parent, exist_ok=True)
-    with open(args.output, "w") as f:
-        json.dump(results, f, indent=2)
+    with open(args.output, "w", encoding="utf-8") as f:
+        json.dump(out, f, indent=2)
 
-    # Print summary
-    print(f"\n{'='*50}")
-    print(f"JSON validity: {results['json_valid']}/{results['json_valid'] + results['json_invalid']}")
-    if "aggregate" in results:
-        print(f"\nField accuracy (avg):")
-        for field in STRING_FIELDS:
-            print(f"  {field}: {results['aggregate'][field]:.2f}")
-        for field in LIST_FIELDS:
-            f1 = results['aggregate'][field]['f1']
-            print(f"  {field}: F1={f1:.2f}")
-
+    print_comparison(base_results, ft_results)
     print(f"\nResults saved to {args.output}")
 
 
 if __name__ == "__main__":
-    import os
     main()

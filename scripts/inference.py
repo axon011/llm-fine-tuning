@@ -70,8 +70,8 @@ def extract(model, tokenizer, jd_text: str, max_new_tokens: int = 512) -> str:
 
 def parse_args():
     p = argparse.ArgumentParser()
-    p.add_argument("--base_model", default="google/gemma-2-2b")
-    p.add_argument("--adapter", default="output/jd-extractor-lora")
+    p.add_argument("--base_model", default="Qwen/Qwen2-0.5B-Instruct")
+    p.add_argument("--adapter", default="output/jd-extractor-qwen-0.5b-v2")
     p.add_argument("--input", type=str, help="JD text to extract from")
     p.add_argument("--file", type=str, help="Path to JD text file")
     p.add_argument("--interactive", action="store_true", help="Interactive mode")

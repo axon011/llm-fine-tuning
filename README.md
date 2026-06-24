@@ -4,22 +4,32 @@ Fine-tuned Qwen2-0.5B using QLoRA to extract structured JSON from job descriptio
 
 ## Results
 
-Evaluated on 10 held-out job descriptions (unseen during training):
+Evaluated on 10 held-out job descriptions (unseen during training), comparing the
+un-tuned base model against the fine-tuned adapter:
 
-| Metric | Score |
-|--------|-------|
-| **JSON validity** | 100% (10/10) |
-| Company | 95% |
-| Language | 85% |
-| Location | 75% |
-| Title | 70% |
-| Seniority | 50% |
-| Work Model | 45% |
-| Required Skills (F1) | 0.36 |
-| Nice-to-have (F1) | 0.10 |
-| Salary | 10% |
+| Metric | Base (Qwen2-0.5B) | Fine-tuned | Δ |
+|--------|------:|------:|------:|
+| **JSON validity** | 30% (3/10) | **100% (10/10)** | **+70pp** |
+| Company | 1.00 | 0.95 | −0.05 |
+| Title | 0.67 | 0.70 | +0.03 |
+| Location | 0.33 | 0.70 | +0.37 |
+| Work Model | 0.00 | 0.45 | +0.45 |
+| Seniority | 0.17 | 0.50 | +0.33 |
+| Language | 0.00 | 0.85 | +0.85 |
+| Salary | 0.00 | 0.10 | +0.10 |
+| Required Skills (F1) | 0.00 | 0.34 | +0.34 |
+| Nice-to-have (F1) | 0.00 | 0.19 | +0.19 |
 
-The model reliably produces valid JSON and extracts entity-level fields well. List fields (skills) and rarely-present fields (salary) need more training data.
+The headline win is **reliability**: the base model only produces parseable JSON 3/10 of the
+time, while the fine-tuned model is valid 10/10. Fine-tuning also lifts almost every field.
+
+> **Note on the base column:** base field scores are averaged over only the 3 outputs that
+> parsed as JSON, so a high number like Company = 1.00 reflects 3 lucky samples, not 10. The
+> fine-tuned column is averaged over all 10. The fair, apples-to-apples comparison is JSON
+> validity. Regenerate this table any time with `python scripts/evaluate.py` (runs both models).
+
+The model reliably produces valid JSON and extracts entity-level fields well. List fields
+(skills) and rarely-present fields (salary) need more training data.
 
 ## Architecture
 
@@ -103,6 +113,9 @@ PYTHONUTF8=1 python scripts/evaluate.py \
   --test_file "data/processed/test.jsonl"
 ```
 
+By default this evaluates **both** the base and fine-tuned models and prints a side-by-side
+comparison. Add `--no-compare-base` to score only the fine-tuned adapter (faster, half the VRAM).
+
 ### Inference
 
 ```bash
@@ -123,9 +136,12 @@ python scripts/inference.py --input "paste a job description here"
 │   ├── evaluate.py                # JSON validity + field scoring
 │   └── inference.py               # Run model on new JDs
 ├── eval/
-│   └── results.json               # Full evaluation output
-├── output/
-│   └── jd-extractor-qwen-0.5b-v2/ # Saved LoRA adapter weights
+│   └── results.json               # Full evaluation output (base + fine-tuned)
+├── notebooks/
+│   ├── jd_extractor_colab.ipynb   # Train on a free Colab T4 GPU
+│   └── kaggle_train.ipynb         # Scale up with the LinkedIn dataset (Kaggle T4)
+├── output/                        # Saved LoRA adapter weights (gitignored)
+│   └── jd-extractor-qwen-0.5b-v2/
 └── requirements.txt
 ```
 

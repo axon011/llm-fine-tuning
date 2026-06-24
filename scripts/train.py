@@ -1,14 +1,15 @@
 """
 QLoRA fine-tuning script for JD structured extraction.
 
-Fine-tunes Mistral-7B (4-bit quantized) with LoRA adapters
-on a custom job description dataset.
+Fine-tunes Qwen2-0.5B-Instruct (4-bit quantized) with LoRA adapters
+on a custom job description dataset. Runs on a 4GB GPU.
 
 Usage:
     python scripts/train.py
-    python scripts/train.py --base_model mistralai/Mistral-7B-v0.3 --epochs 3
+    python scripts/train.py --base_model Qwen/Qwen2-0.5B-Instruct --epochs 5
 
-For Colab, use notebooks/fine_tune_colab.ipynb instead.
+For a free cloud GPU, use notebooks/jd_extractor_colab.ipynb (T4) or
+notebooks/kaggle_train.ipynb (Kaggle T4) instead.
 """
 
 import argparse
@@ -28,14 +29,14 @@ from trl import SFTTrainer, SFTConfig
 
 def parse_args():
     p = argparse.ArgumentParser()
-    p.add_argument("--base_model", default="google/gemma-2-2b")
-    p.add_argument("--dataset", default="data/processed/train.jsonl")
-    p.add_argument("--output_dir", default="output/jd-extractor-lora")
-    p.add_argument("--epochs", type=int, default=3)
-    p.add_argument("--batch_size", type=int, default=4)
-    p.add_argument("--grad_accum", type=int, default=4)
+    p.add_argument("--base_model", default="Qwen/Qwen2-0.5B-Instruct")
+    p.add_argument("--dataset", default="data/processed/train_split.jsonl")
+    p.add_argument("--output_dir", default="output/jd-extractor-qwen-0.5b-v2")
+    p.add_argument("--epochs", type=int, default=5)
+    p.add_argument("--batch_size", type=int, default=1)
+    p.add_argument("--grad_accum", type=int, default=8)
     p.add_argument("--lr", type=float, default=2e-4)
-    p.add_argument("--max_seq_len", type=int, default=2048)
+    p.add_argument("--max_seq_len", type=int, default=1024)
     p.add_argument("--lora_r", type=int, default=16)
     p.add_argument("--lora_alpha", type=int, default=32)
     p.add_argument("--wandb_project", default="jd-extractor")
